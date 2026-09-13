@@ -1,0 +1,48 @@
+﻿Claude project restoration
+==========================
+
+Requested time:
+2026-09-12 23:30 Armenia (+04:00)
+
+Actual Claude snapshot:
+2026-09-12 23:27:31 +04:00
+
+Restored historical files: 23
+Removed later-created Claude files: 1
+Unresolved files: 3
+
+RESTORED FILES
+--------------
+src\state_pipeline.py <- 0cb680047418448c@v11
+src\sam2_utils.py <- b272487834c2026b@v2
+src\color_utils.py <- d605ec0fad8a0753@v2
+src\build_submission.py <- 40445e1b630b81f7@v12
+src\debug_viz.py <- 24f67cee8473b461@v3
+src\sahi_experiment.py <- 51630bc435bbab34@v2
+src\tracking_utils.py <- 87bb18a4b3763694@v2
+src\build_state_submission.py <- ee10f6bc6ca4b0e4@v4
+vast\download_sam3.py <- cd4fb546156ba45b@v2
+vast\verify_models.py <- 265cdc439e1851e0@v3
+vast\UPLOAD_CHECKLIST.md <- d4ab889ba1f3fbde@v3
+src\object_pipeline.py <- 1590b4ed44e2ff17@v8
+src\build_action_submission.py <- 951601fbf72d1a49@v2
+src\extract_verification_frames.py <- e09f234e99074c0f@v2
+src\action_pipeline.py <- f91f117e43f9e167@v4
+vast\download_qwen.py <- 3b6a8b63ea0af1a1@v2
+PROJECT_STATUS.md <- 7dabef443161f7f0@v3
+vast\test_qwen_only.py <- 92086e7693a925e7@v2
+src\state_pipeline_partial_rerun.py <- 73a8461860e5c247@v2
+vast\vast_setup.sh <- 6ed074dffedd54f9@v5
+src\generate_report.py <- dc27cd3f2d1eaf76@v2
+src\action_utils.py <- c6fa76383b026a58@v2
+vast\test_sam3_only.py <- 0e6cee6b816f444f@v2
+
+REMOVED FILES CREATED AFTER TARGET
+----------------------------------
+src\action_semantics_utils.py
+
+UNRESOLVED
+----------
+src\opposition_utils.py  [backup missing: 61fab57676001866@v2]
+outputs\action_candidate_windows_video01_partial.csv  [backup missing: 9197adc43308d296@v2]
+src\verify_sam2_prompt1.py  [backup missing: 48741ad03202d554@v2]

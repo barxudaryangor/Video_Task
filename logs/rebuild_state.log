@@ -1,0 +1,28 @@
+Wrote 72 rows -> outputs\submission.csv
+State queries with a predicted interval: 12/24
+
+Per-query state predictions:
+  q004 [presence] 'a white pickup truck is stationary'                    (max_det=0.86, max_crop=0.189) -> NONE
+  q005 [presence] 'a train is stationary'                                 (max_det=0.66, max_crop=0.086) -> NONE
+  q006 [presence] 'a gray car is stationary behind a lamppost'            (max_det=0.54, max_crop=0.145) -> 99.25 100.25
+  q013 [presence] 'a car trunk is open'                                   (max_det=0.70, max_crop=0.147) -> 132.75 137.25
+  q014 [absence ] 'there are no cars in the parking lot'                  (max_det=0.00, max_crop=nan) -> 0.00 302.50
+  q015 [presence] 'two groups of people are standing on the sidewalk'     (max_det=0.82, max_crop=0.165) -> 40.76 72.26;104.25 302.50
+  q022 [presence] 'a person is standing near a table under an umbrella'   (max_det=0.00, max_crop=nan) -> NONE
+  q023 [presence] 'a red bicycle is parked near the stairs'               (max_det=0.62, max_crop=0.086) -> NONE
+  q024 [absence ] 'no one is on the stairs'                               (max_det=0.47, max_crop=0.161) -> NONE
+  q031 [presence] 'bags are lying on the ground'                          (max_det=0.58, max_crop=0.152) -> 77.28 215.53
+  q032 [absence ] 'there are no people in the frame'                      (max_det=0.73, max_crop=0.104) -> NONE
+  q033 [presence] 'a green hand truck is standing upright'                (max_det=0.88, max_crop=0.178) -> 69.28 72.25
+  q040 [presence] 'a person is inside the store'                          (max_det=0.85, max_crop=0.147) -> 37.75 99.25;123.75 145.25
+  q041 [presence] 'the door is closed'                                    (max_det=0.52, max_crop=0.116) -> NONE
+  q042 [presence] 'a white pickup truck is parked in the background'      (max_det=0.87, max_crop=0.107) -> NONE
+  q049 [presence] 'a black pickup truck is parked in the background'      (max_det=0.80, max_crop=0.064) -> NONE
+  q050 [presence] 'a person is standing with a phone in their hand'       (max_det=0.33, max_crop=0.106) -> NONE
+  q051 [presence] 'a person is standing with a phone to their ear'        (max_det=0.47, max_crop=0.133) -> 30.25 47.25
+  q058 [presence] 'a yellow-and-white car is parked near the construction site' (max_det=0.80, max_crop=0.172) -> 0.00 63.75;89.75 96.75;124.25 228.25
+  q059 [presence] 'a tractor is lying on its side'                        (max_det=0.86, max_crop=0.173) -> 52.75 172.25
+  q060 [presence] 'a person wearing a white shirt'                        (max_det=0.87, max_crop=0.083) -> NONE
+  q067 [absence ] 'there are no cashiers at the checkout counters'        (max_det=0.45, max_crop=0.152) -> NONE
+  q068 [absence ] 'there are no shopping carts in the frame'              (max_det=0.33, max_crop=0.142) -> 0.00 12.50;47.00 62.50;83.00 93.00;162.00 177.50;218.50 230.00;244.00 262.00;262.00 282.00
+  q069 [presence] 'only one checkout counter is open'                     (max_det=0.34, max_crop=0.158) -> 0.00 298.50

@@ -1,0 +1,30 @@
+48 queries have no frame scores yet (state/action) -> written as NONE
+
+Wrote 72 rows -> outputs\submission.csv
+Object queries with a predicted interval: 14/24
+
+Per-query predictions (object):
+  q001 | 'a man with a red backpack'                             (max_det=0.48, max_crop=0.132) -> 6.75 7.25
+  q002 | 'a cyclist'                                             (max_det=0.54, max_crop=0.149) -> 111.75 120.75;180.75 183.25;204.25 204.75
+  q003 | 'a yellow car'                                          (max_det=0.87, max_crop=0.112) -> NONE
+  q010 | 'a hand truck'                                          (max_det=0.78, max_crop=0.170) -> 119.74 131.75;143.76 151.23
+  q011 | 'a person wearing a yellow shirt'                       (max_det=0.00, max_crop=nan) -> NONE
+  q012 | 'a person wearing a white shirt'                        (max_det=0.60, max_crop=0.099) -> NONE
+  q019 | 'an elderly woman wearing a blue dress'                 (max_det=0.88, max_crop=0.197) -> 71.77 77.23;81.73 88.74;174.73 193.24
+  q020 | 'a man with a backpack'                                 (max_det=0.34, max_crop=0.144) -> 58.76 59.26;75.23 80.73;171.77 173.27;197.25 197.75
+  q021 | 'a blue umbrella'                                       (max_det=0.48, max_crop=0.127) -> NONE
+  q028 | 'a gun'                                                 (max_det=0.93, max_crop=0.131) -> 78.28 78.78
+  q029 | 'a man wearing a red jacket'                            (max_det=0.70, max_crop=0.178) -> 7.28 11.78;18.75 23.25;33.75 36.25;51.28 59.25;65.28 69.78;76.28 88.25
+  q030 | 'a man wearing a blue jacket and purple pants '         (max_det=0.00, max_crop=nan) -> NONE
+  q037 | 'a man wearing a yellow shirt'                          (max_det=0.47, max_crop=0.150) -> 62.25 67.75;79.75 87.75;142.75 145.25;151.75 152.25;175.25 175.75
+  q038 | 'a man with a gun'                                      (max_det=0.84, max_crop=0.121) -> NONE
+  q039 | 'a person wearing a red shirt'                          (max_det=0.79, max_crop=0.130) -> 117.25 117.75
+  q046 | 'a person wearing a red cap'                            (max_det=0.40, max_crop=0.070) -> NONE
+  q047 | 'TV'                                                    (max_det=0.46, max_crop=0.061) -> NONE
+  q048 | 'a police car '                                         (max_det=0.80, max_crop=0.080) -> NONE
+  q055 | 'a yellow dumpster filled with sand'                    (max_det=0.87, max_crop=0.198) -> 0.00 299.50
+  q056 | 'a person wearing a red shirt'                          (max_det=0.73, max_crop=0.085) -> NONE
+  q057 | 'a yellow-and-white car'                                (max_det=0.82, max_crop=0.173) -> 0.00 66.25;87.75 191.75;197.75 229.75
+  q064 | 'a person wearing a red cap'                            (max_det=0.80, max_crop=0.151) -> 10.75 16.75;22.75 23.75;142.25 142.75;153.25 155.25
+  q065 | 'a person wearing yellow shorts'                        (max_det=0.48, max_crop=0.168) -> 83.25 135.25;147.75 148.25;153.25 185.25
+  q066 | 'a person wearing a red T-shirt'                        (max_det=0.33, max_crop=0.146) -> 124.25 124.75;129.75 133.75

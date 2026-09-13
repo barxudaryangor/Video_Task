@@ -1,0 +1,4 @@
+video_id,query_id,query_text,window_start,window_end,qwen_raw_answer,parsed_start,parsed_end
+video_02,q016,a car drives through the parking lot,47.986266666666666,57.986266666666666,NO,,
+video_02,q016,a car drives through the parking lot,115.00821666666667,135.00821666666667,NO,,
+video_02,q016,a car drives through the parking lot,215.99243333333334,235.99243333333334,NO,,

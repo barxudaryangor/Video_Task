@@ -1,0 +1,57 @@
+﻿      [Qwen diag] window abs=(47.99,57.99) expected_duration=10.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=18 requested_sample_fps=2.0 effective_sample_fps=1.800
+      [Qwen diag] metadata.total_num_frames=299 frames_indices[:3]=[1439, 1457, 1474] frames_indices[-3:]=[1702, 1719, 1737]
+      [Qwen diag] first_frame_ts=48.014633333333336 last_frame_ts=57.9579 perceived_duration~=9.943266666666666
+[transformers] Qwen3VL video processing does not apply the per-frame pixel cap the reference implementation (qwen-vl-utils) applies, so some videos cost far more tokens than they would there. In v5.22 the capped behavior will become the default and `cap_pixels_per_frame` will be removed. Pass `cap_pixels_per_frame=True` to adopt the reference behavior now, or `False` to keep the current behavior and silence this warning.
+    window [48.0,58.0] -> Qwen3-VL raw: 'NO' -> validated absolute interval=None
+      [Qwen diag] window abs=(63.00,83.00) expected_duration=20.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=38 requested_sample_fps=2.0 effective_sample_fps=1.900
+      [Qwen diag] metadata.total_num_frames=599 frames_indices[:3]=[1889, 1905, 1921] frames_indices[-3:]=[2455, 2471, 2487]
+      [Qwen diag] first_frame_ts=63.02963333333334 last_frame_ts=82.9829 perceived_duration~=19.953266666666664
+    window [63.0,83.0] -> Qwen3-VL raw: 'YES 69.7-82.5' -> validated absolute interval=(69.7, 82.5)
+      [Qwen diag] window abs=(79.00,99.00) expected_duration=20.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=40 requested_sample_fps=2.0 effective_sample_fps=2.000
+      [Qwen diag] metadata.total_num_frames=600 frames_indices[:3]=[2368, 2383, 2399] frames_indices[-3:]=[2936, 2952, 2967]
+      [Qwen diag] first_frame_ts=79.01226666666666 last_frame_ts=98.9989 perceived_duration~=19.986633333333344
+    window [79.0,99.0] -> Qwen3-VL raw: 'NO' -> validated absolute interval=None
+      [Qwen diag] window abs=(95.00,115.00) expected_duration=20.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=38 requested_sample_fps=2.0 effective_sample_fps=1.900
+      [Qwen diag] metadata.total_num_frames=599 frames_indices[:3]=[2848, 2864, 2880] frames_indices[-3:]=[3414, 3430, 3446]
+      [Qwen diag] first_frame_ts=95.02826666666667 last_frame_ts=114.98153333333333 perceived_duration~=19.953266666666664
+    window [95.0,115.0] -> Qwen3-VL raw: 'NO' -> validated absolute interval=None
+      [Qwen diag] window abs=(111.00,131.00) expected_duration=20.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=40 requested_sample_fps=2.0 effective_sample_fps=2.000
+      [Qwen diag] metadata.total_num_frames=600 frames_indices[:3]=[3327, 3342, 3358] frames_indices[-3:]=[3895, 3911, 3926]
+      [Qwen diag] first_frame_ts=111.0109 last_frame_ts=130.99753333333334 perceived_duration~=19.98663333333333
+    window [111.0,131.0] -> Qwen3-VL raw: 'NO' -> validated absolute interval=None
+      [Qwen diag] window abs=(127.00,147.00) expected_duration=20.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=38 requested_sample_fps=2.0 effective_sample_fps=1.900
+      [Qwen diag] metadata.total_num_frames=599 frames_indices[:3]=[3807, 3823, 3839] frames_indices[-3:]=[4373, 4389, 4405]
+      [Qwen diag] first_frame_ts=127.0269 last_frame_ts=146.98016666666666 perceived_duration~=19.953266666666664
+    window [127.0,147.0] -> Qwen3-VL raw: 'NO' -> validated absolute interval=None
+      [Qwen diag] window abs=(143.00,163.00) expected_duration=20.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=40 requested_sample_fps=2.0 effective_sample_fps=2.000
+      [Qwen diag] metadata.total_num_frames=600 frames_indices[:3]=[4286, 4301, 4317] frames_indices[-3:]=[4854, 4870, 4885]
+      [Qwen diag] first_frame_ts=143.00953333333334 last_frame_ts=162.99616666666668 perceived_duration~=19.986633333333344
+    window [143.0,163.0] -> Qwen3-VL raw: 'YES 159.7-163.2' -> validated absolute interval=(159.7, 163.00126666666665)
+      [Qwen diag] window abs=(159.00,179.00) expected_duration=20.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=38 requested_sample_fps=2.0 effective_sample_fps=1.900
+      [Qwen diag] metadata.total_num_frames=599 frames_indices[:3]=[4766, 4782, 4798] frames_indices[-3:]=[5332, 5348, 5364]
+      [Qwen diag] first_frame_ts=159.02553333333333 last_frame_ts=178.9788 perceived_duration~=19.95326666666668
+    window [159.0,179.0] -> Qwen3-VL raw: 'YES 160.0-178.0' -> validated absolute interval=(160.0, 178.0)
+      [Qwen diag] window abs=(175.00,187.02) expected_duration=12.01s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=24 requested_sample_fps=2.0 effective_sample_fps=1.998
+      [Qwen diag] metadata.total_num_frames=360 frames_indices[:3]=[5245, 5261, 5276] frames_indices[-3:]=[5573, 5588, 5604]
+      [Qwen diag] first_frame_ts=175.00816666666668 last_frame_ts=186.98680000000002 perceived_duration~=11.978633333333335
+    window [175.0,187.0] -> Qwen3-VL raw: 'YES 175.3-180.5' -> validated absolute interval=(175.3, 180.5)
+      [Qwen diag] window abs=(215.99,235.99) expected_duration=20.00s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=38 requested_sample_fps=2.0 effective_sample_fps=1.900
+      [Qwen diag] metadata.total_num_frames=599 frames_indices[:3]=[6474, 6490, 6506] frames_indices[-3:]=[7040, 7056, 7072]
+      [Qwen diag] first_frame_ts=216.0158 last_frame_ts=235.96906666666666 perceived_duration~=19.95326666666665
+    window [216.0,236.0] -> Qwen3-VL raw: 'NO' -> validated absolute interval=None
+      [Qwen diag] window abs=(231.99,236.00) expected_duration=4.01s
+      [Qwen diag] source_video_fps=29.97002997002997 sampled_frames=8 requested_sample_fps=2.0 effective_sample_fps=1.995
+      [Qwen diag] metadata.total_num_frames=120 frames_indices[:3]=[6953, 6970, 6987] frames_indices[-3:]=[7038, 7055, 7072]
+      [Qwen diag] first_frame_ts=231.99843333333334 last_frame_ts=235.96906666666666 perceived_duration~=3.970633333333325
+    window [232.0,236.0] -> Qwen3-VL raw: 'NO' -> validated absolute interval=None
+
