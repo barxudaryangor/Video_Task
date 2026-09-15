@@ -135,6 +135,31 @@ def sam3_presence_score(image, text, processor, model):
     return torch.sigmoid(outputs.presence_logits).item()
 
 
+def _chunk_span(start, end):
+    """
+    Split [start, end] into <=MAX_CLIP_SEC windows with WINDOW_OVERLAP_SEC
+    overlap between consecutive pieces (never a single window wider than
+    MAX_CLIP_SEC, so a long span straddling the limit isn't silently
+    truncated). Shared by the normal presence-merge path and the
+    zero-window fallback below, which both need to turn one long span
+    into Qwen-sized clips the same way.
+    """
+    span = end - start
+    if span <= MAX_CLIP_SEC:
+        return [(start, end)]
+    step = MAX_CLIP_SEC - WINDOW_OVERLAP_SEC
+    assert step > 0, "WINDOW_OVERLAP_SEC must be smaller than MAX_CLIP_SEC"
+    result = []
+    c_start = start
+    while True:
+        c_end = min(end, c_start + MAX_CLIP_SEC)
+        result.append((c_start, c_end))
+        if c_end >= end:
+            break
+        c_start += step
+    return result
+
+
 def stage1_candidate_windows(video_path, query_ids, query_texts, subjects, processor, model, debug_query=None):
     """
     Samples the video every SAMPLE_INTERVAL_SEC and scores SAM3 presence
@@ -188,7 +213,23 @@ def stage1_candidate_windows(video_path, query_ids, query_texts, subjects, proce
         above = scores >= PRESENCE_THRESHOLD
         idxs = np.where(above)[0]
         if len(idxs) == 0:
-            windows[qid] = []
+            # SAM3 presence never crossed the threshold anywhere in the
+            # whole video. Confirmed (2026-09-15, real data) that this is
+            # NOT always genuine absence: for some subject phrases (e.g.
+            # "robbers", "a tractor") the score stays low across frames
+            # where the object is plausibly/confirmedly on screen -- a
+            # SAM3 vocabulary/grounding gap, not evidence of nothing
+            # happening. Silently emitting zero windows here means an
+            # automatic NONE with no Stage-2 check at all, which is a
+            # costly wrong guess if the query is actually non-NONE.
+            # Falling back to a full-video scan costs exactly what the
+            # "saturated presence" case below already pays per query, so
+            # this isn't a new expense class -- it just stops the weakest
+            # Stage-1 signal from being the sole word on these queries.
+            print(f"    [Stage1 fallback] {qid}: SAM3 presence never reached "
+                  f"{PRESENCE_THRESHOLD} (max={scores.max():.3f}) -- falling back "
+                  f"to full-video scan instead of auto-NONE")
+            windows[qid] = _chunk_span(0.0, video_end)
             continue
 
         merged = [[idxs[0], idxs[0]]]
@@ -202,26 +243,11 @@ def stage1_candidate_windows(video_path, query_ids, query_texts, subjects, proce
         for s_idx, e_idx in merged:
             start = max(0.0, float(times[s_idx]) - WINDOW_PAD_SEC)
             end = min(video_end, float(times[e_idx]) + WINDOW_PAD_SEC)
-            span = end - start
-            if span <= MAX_CLIP_SEC:
-                result.append((start, end))
-            else:
-                # A long continuous presence stretch (e.g. a parked car
-                # visible for two minutes) must NOT be collapsed to one
-                # centered MAX_CLIP_SEC slice -- that silently throws
-                # away most of the span, and the real action could be
-                # anywhere in it. Split into sequential sub-windows with
-                # a small overlap, so an action straddling a chunk
-                # boundary still falls fully inside at least one chunk.
-                step = MAX_CLIP_SEC - WINDOW_OVERLAP_SEC
-                assert step > 0, "WINDOW_OVERLAP_SEC must be smaller than MAX_CLIP_SEC"
-                c_start = start
-                while True:
-                    c_end = min(end, c_start + MAX_CLIP_SEC)
-                    result.append((c_start, c_end))
-                    if c_end >= end:
-                        break
-                    c_start += step
+            # A long continuous presence stretch (e.g. a parked car visible
+            # for two minutes) must NOT be collapsed to one centered
+            # MAX_CLIP_SEC slice -- that silently throws away most of the
+            # span, and the real action could be anywhere in it.
+            result.extend(_chunk_span(start, end))
         windows[qid] = result
 
     return windows, presence_rows

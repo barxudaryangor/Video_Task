@@ -32,7 +32,29 @@ QUERIES_PATH = DATA_DIR / "queries.csv"
 WINDOWS_PATH = OUTPUT_DIR / "action_candidate_windows.csv"
 SUBMISSION_PATH = OUTPUT_DIR / "submission.csv"
 
-MAX_GAP_SEC = 5.0
+
+# 5.0s was copied from the object/state categories, where it makes sense
+# (0.5s frame sampling, small dropouts). Action's Stage-1 windows are
+# spaced ~16s apart (MAX_CLIP_SEC=20 - WINDOW_OVERLAP_SEC=4, in
+# action_pipeline.py), so a single window Qwen answers NO on -- while its
+# neighbors on both sides answer YES for what is really one continuous
+# action -- creates a 16-20s hole, which 5.0s cannot bridge. Confirmed on
+# real data (2026-09-15, two independent full-24-query GPU runs, scored
+# against user-supplied ground truth with tIoU-F1): a query with one long
+# continuous true interval (q007, "a lawn mower cutting the grass",
+# true=145-220s) was fragmented into 4 disconnected pieces at 5.0s
+# (F1 as low as 0.000-0.133) but became a single correct near-perfect
+# match at 16.0s (F1=1.000) in both runs. 16.0s was the empirical optimum
+# (or tied for it) on both runs' full gap sweeps (5-100s tested), and it
+# is not just a curve-fit: it equals the Stage-1 window step itself, i.e.
+# "bridge across exactly one skipped window". Net effect across all 24
+# action queries was positive in both runs (mean tIoU-F1 improved), with
+# the same trade-off pattern each time: it can over-merge queries whose
+# ground truth has multiple genuinely separate short events within ~16s
+# of each other (observed on q072, "a cashier is bagging groceries") --
+# an acceptable trade given the net gain, but worth knowing about if a
+# specific query regresses after this change.
+MAX_GAP_SEC = 16.0
 BOUNDARY_PAD_SEC = 0.25
 
 
