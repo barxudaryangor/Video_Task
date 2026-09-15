@@ -1,0 +1,526 @@
+video_id,query_id,query_text,window_start,window_end,qwen_raw_answer,parsed_start,parsed_end,refined,diag_source_video_fps,diag_sampled_frames,diag_requested_sample_fps,diag_effective_sample_fps,diag_metadata_total_num_frames,diag_first_frame_ts,diag_last_frame_ts,diag_perceived_duration
+video_03,q027,a person is walking up the stairs,0.0,20.0,YES 0.0-0.3,0.0,0.3,False,23.979999999999997,40,2.0,2.0,480,0.0,19.97497914929108,19.97497914929108
+video_03,q027,a person is walking up the stairs,16.0,36.0,YES 17.0-21.0,17.0,21.0,False,23.979999999999997,40,2.0,2.0,480,16.01334445371143,35.988323603002506,19.974979149291077
+video_03,q027,a person is walking up the stairs,32.0,50.996663886572144,YES 37.4-40.5,37.4,40.5,False,23.979999999999997,36,2.0,1.8950695877420205,455,32.02668890742286,50.95913261050877,18.93244370308591
+video_03,q027,a person is walking up the stairs,54.007506255212675,74.00750625521268,YES 58.7-73.8,58.7,73.8,False,23.979999999999997,38,2.0,1.9,479,54.04503753127607,73.97831526271894,19.933277731442864
+video_03,q027,a person is walking up the stairs,70.00750625521268,90.00750625521268,YES 71.2-74.0,71.2,74.0,False,23.979999999999997,40,2.0,2.0,480,70.01668056713929,89.99165971643038,19.974979149291087
+video_03,q027,a person is walking up the stairs,86.00750625521268,106.00750625521268,YES 103.8-105.5,103.8,105.5,False,23.979999999999997,40,2.0,2.0,480,86.03002502085072,106.0050041701418,19.974979149291087
+video_03,q027,a person is walking up the stairs,102.00750625521268,122.00750625521268,YES 108.8-111.8,108.8,111.8,False,23.979999999999997,38,2.0,1.9,479,102.04336947456216,121.97664720600503,19.93327773144287
+video_03,q027,a person is walking up the stairs,118.00750625521268,138.00750625521266,YES 127.5-130.3,127.5,130.3,False,23.979999999999997,40,2.0,2.0000000000000013,480,118.01501251042536,137.98999165971645,19.974979149291087
+video_03,q027,a person is walking up the stairs,134.00750625521266,154.00750625521266,YES 137.7-143.9,137.7,143.9,False,23.979999999999997,40,2.0,2.0,480,134.0283569641368,154.00333611342788,19.974979149291073
+video_03,q027,a person is walking up the stairs,150.00750625521266,170.00750625521266,YES 152.1-154.5,152.1,154.5,False,23.979999999999997,38,2.0,1.9,479,150.04170141784823,169.9749791492911,19.93327773144287
+video_03,q027,a person is walking up the stairs,166.00750625521266,186.00750625521266,NO,,,False,23.979999999999997,40,2.0,2.0,480,166.01334445371145,185.98832360300253,19.974979149291073
+video_03,q027,a person is walking up the stairs,166.00750625521266,174.00750625521266,NO,,,True,23.979999999999997,16,2.0,2.0,192,166.01334445371145,173.97831526271895,7.964970809007497
+video_03,q027,a person is walking up the stairs,172.00750625521266,180.00750625521266,NO,,,True,23.979999999999997,16,2.0,2.0,192,172.01834862385323,179.98331943286075,7.964970809007525
+video_03,q027,a person is walking up the stairs,178.00750625521266,186.00750625521266,NO,,,True,23.979999999999997,16,2.0,2.0,192,178.02335279399503,185.98832360300253,7.964970809007497
+video_03,q027,a person is walking up the stairs,182.00750625521266,202.00750625521266,YES 197.5-202.2,197.5,202.00750625521266,False,23.979999999999997,40,2.0,2.0,480,182.02668890742288,202.00166805671395,19.974979149291073
+video_03,q027,a person is walking up the stairs,198.00750625521266,218.00750625521266,YES 198.3-208.0,198.3,208.0,False,23.979999999999997,38,2.0,1.9,479,198.0400333611343,217.97331109257718,19.93327773144287
+video_03,q027,a person is walking up the stairs,214.00750625521266,234.00750625521266,YES 215.5-220.3,215.5,220.3,False,23.979999999999997,40,2.0,2.0,480,214.01167639699753,233.9866555462886,19.974979149291073
+video_03,q027,a person is walking up the stairs,230.00750625521266,250.00750625521266,YES 39.5-47.0,,,False,23.979999999999997,40,2.0,2.0,480,230.02502085070896,250.00000000000003,19.974979149291073
+video_03,q027,a person is walking up the stairs,230.00750625521266,238.00750625521266,YES 4.1-6.4,,,True,23.979999999999997,16,2.0,2.0,192,230.02502085070896,237.98999165971645,7.964970809007497
+video_03,q027,a person is walking up the stairs,236.00750625521266,244.00750625521266,YES 239.0-242.0,239.0,242.0,True,23.979999999999997,16,2.0,2.0,192,236.03002502085073,243.99499582985825,7.964970809007525
+video_03,q027,a person is walking up the stairs,242.00750625521266,250.00750625521266,YES 242.3-246.6,242.3,246.6,True,23.979999999999997,16,2.0,2.0,192,242.03502919099253,250.00000000000003,7.964970809007497
+video_03,q027,a person is walking up the stairs,246.00750625521266,266.00750625521266,YES 246.3-264.6,246.3,264.6,False,23.979999999999997,38,2.0,1.9,479,246.03836530442038,265.9716430358633,19.9332777314429
+video_03,q027,a person is walking up the stairs,262.00750625521266,282.00750625521266,YES 265.0-275.0,265.0,275.0,False,23.979999999999997,40,2.0,2.0,480,262.0100083402836,281.9849874895747,19.974979149291073
+video_03,q027,a person is walking up the stairs,278.00750625521266,298.00750625521266,YES 4.2-6.4,,,False,23.979999999999997,40,2.0,2.0,480,278.02335279399506,297.99833194328613,19.974979149291073
+video_03,q027,a person is walking up the stairs,278.00750625521266,286.00750625521266,YES 47.3-49.3,,,True,23.979999999999997,16,2.0,2.0,192,278.02335279399506,285.9883236030025,7.964970809007468
+video_03,q027,a person is walking up the stairs,284.00750625521266,292.00750625521266,YES 4.0-7.0,,,True,23.979999999999997,16,2.0,2.0,192,284.02835696413683,291.9933277731443,7.964970809007468
+video_03,q027,a person is walking up the stairs,290.00750625521266,298.00750625521266,YES 290.3-297.7,290.3,297.7,True,23.979999999999997,16,2.0,2.0,192,290.0333611342786,297.99833194328613,7.964970809007525
+video_03,q027,a person is walking up the stairs,294.00750625521266,301.00083402835696,YES 297.5-300.6,297.5,300.6,False,23.979999999999997,12,2.0,1.7159212880143078,167,294.03669724770646,300.9591326105088,6.922435362802332
+video_05,q043,robbers are smashing store windows,0.0,20.0,NO,,,False,30,40,2.0,2.0,601,0.0,20.0,20.0
+video_05,q043,robbers are smashing store windows,0.0,8.0,NO,,,True,30,16,2.0,2.0,241,0.0,8.0,8.0
+video_05,q043,robbers are smashing store windows,6.0,14.0,NO,,,True,30,16,2.0,2.0,241,6.0,14.0,8.0
+video_05,q043,robbers are smashing store windows,12.0,20.0,NO,,,True,30,16,2.0,2.0,241,12.0,20.0,8.0
+video_05,q043,robbers are smashing store windows,16.0,36.0,NO,,,False,30,40,2.0,2.0,601,16.0,36.0,20.0
+video_05,q043,robbers are smashing store windows,16.0,24.0,NO,,,True,30,16,2.0,2.0,241,16.0,24.0,8.0
+video_05,q043,robbers are smashing store windows,22.0,30.0,NO,,,True,30,16,2.0,2.0,241,22.0,30.0,8.0
+video_05,q043,robbers are smashing store windows,28.0,36.0,NO,,,True,30,16,2.0,2.0,241,28.0,36.0,8.0
+video_05,q043,robbers are smashing store windows,32.0,52.0,NO,,,False,30,40,2.0,2.0,601,32.0,52.0,20.0
+video_05,q043,robbers are smashing store windows,32.0,40.0,NO,,,True,30,16,2.0,2.0,241,32.0,40.0,8.0
+video_05,q043,robbers are smashing store windows,38.0,46.0,NO,,,True,30,16,2.0,2.0,241,38.0,46.0,8.0
+video_05,q043,robbers are smashing store windows,44.0,52.0,NO,,,True,30,16,2.0,2.0,241,44.0,52.0,8.0
+video_05,q043,robbers are smashing store windows,48.0,68.0,NO,,,False,30,40,2.0,2.0,601,48.0,68.0,20.0
+video_05,q043,robbers are smashing store windows,48.0,56.0,NO,,,True,30,16,2.0,2.0,241,48.0,56.0,8.0
+video_05,q043,robbers are smashing store windows,54.0,62.0,NO,,,True,30,16,2.0,2.0,241,54.0,62.0,8.0
+video_05,q043,robbers are smashing store windows,60.0,68.0,NO,,,True,30,16,2.0,2.0,241,60.0,68.0,8.0
+video_05,q043,robbers are smashing store windows,64.0,84.0,NO,,,False,30,40,2.0,2.0,601,64.0,84.0,20.0
+video_05,q043,robbers are smashing store windows,64.0,72.0,NO,,,True,30,16,2.0,2.0,241,64.0,72.0,8.0
+video_05,q043,robbers are smashing store windows,70.0,78.0,NO,,,True,30,16,2.0,2.0,241,70.0,78.0,8.0
+video_05,q043,robbers are smashing store windows,76.0,84.0,NO,,,True,30,16,2.0,2.0,241,76.0,84.0,8.0
+video_05,q043,robbers are smashing store windows,80.0,100.0,NO,,,False,30,40,2.0,2.0,601,80.0,100.0,20.0
+video_05,q043,robbers are smashing store windows,80.0,88.0,NO,,,True,30,16,2.0,2.0,241,80.0,88.0,8.0
+video_05,q043,robbers are smashing store windows,86.0,94.0,NO,,,True,30,16,2.0,2.0,241,86.0,94.0,8.0
+video_05,q043,robbers are smashing store windows,92.0,100.0,NO,,,True,30,16,2.0,2.0,241,92.0,100.0,8.0
+video_05,q043,robbers are smashing store windows,96.0,116.0,NO,,,False,30,40,2.0,2.0,601,96.0,116.0,20.0
+video_05,q043,robbers are smashing store windows,96.0,104.0,NO,,,True,30,16,2.0,2.0,241,96.0,104.0,8.0
+video_05,q043,robbers are smashing store windows,102.0,110.0,NO,,,True,30,16,2.0,2.0,241,102.0,110.0,8.0
+video_05,q043,robbers are smashing store windows,108.0,116.0,NO,,,True,30,16,2.0,2.0,241,108.0,116.0,8.0
+video_05,q043,robbers are smashing store windows,112.0,132.0,NO,,,False,30,40,2.0,2.0,601,112.0,132.0,20.0
+video_05,q043,robbers are smashing store windows,112.0,120.0,NO,,,True,30,16,2.0,2.0,241,112.0,120.0,8.0
+video_05,q043,robbers are smashing store windows,118.0,126.0,NO,,,True,30,16,2.0,2.0,241,118.0,126.0,8.0
+video_05,q043,robbers are smashing store windows,124.0,132.0,NO,,,True,30,16,2.0,2.0,241,124.0,132.0,8.0
+video_05,q043,robbers are smashing store windows,128.0,148.0,NO,,,False,30,40,2.0,2.0,601,128.0,148.0,20.0
+video_05,q043,robbers are smashing store windows,128.0,136.0,NO,,,True,30,16,2.0,2.0,241,128.0,136.0,8.0
+video_05,q043,robbers are smashing store windows,134.0,142.0,NO,,,True,30,16,2.0,2.0,241,134.0,142.0,8.0
+video_05,q043,robbers are smashing store windows,140.0,148.0,NO,,,True,30,16,2.0,2.0,241,140.0,148.0,8.0
+video_05,q043,robbers are smashing store windows,144.0,164.0,NO,,,False,30,40,2.0,2.0,601,144.0,164.0,20.0
+video_05,q043,robbers are smashing store windows,144.0,152.0,NO,,,True,30,16,2.0,2.0,241,144.0,152.0,8.0
+video_05,q043,robbers are smashing store windows,150.0,158.0,NO,,,True,30,16,2.0,2.0,241,150.0,158.0,8.0
+video_05,q043,robbers are smashing store windows,156.0,164.0,NO,,,True,30,16,2.0,2.0,241,156.0,164.0,8.0
+video_05,q043,robbers are smashing store windows,160.0,180.0,NO,,,False,30,40,2.0,2.0,601,160.0,180.0,20.0
+video_05,q043,robbers are smashing store windows,160.0,168.0,NO,,,True,30,16,2.0,2.0,241,160.0,168.0,8.0
+video_05,q043,robbers are smashing store windows,166.0,174.0,NO,,,True,30,16,2.0,2.0,241,166.0,174.0,8.0
+video_05,q043,robbers are smashing store windows,172.0,180.0,NO,,,True,30,16,2.0,2.0,241,172.0,180.0,8.0
+video_05,q043,robbers are smashing store windows,176.0,196.0,NO,,,False,30,40,2.0,2.0,601,176.0,196.0,20.0
+video_05,q043,robbers are smashing store windows,176.0,184.0,NO,,,True,30,16,2.0,2.0,241,176.0,184.0,8.0
+video_05,q043,robbers are smashing store windows,182.0,190.0,NO,,,True,30,16,2.0,2.0,241,182.0,190.0,8.0
+video_05,q043,robbers are smashing store windows,188.0,196.0,NO,,,True,30,16,2.0,2.0,241,188.0,196.0,8.0
+video_05,q043,robbers are smashing store windows,192.0,209.0,NO,,,False,30,34,2.0,2.0,511,192.0,209.0,17.0
+video_05,q043,robbers are smashing store windows,192.0,200.0,NO,,,True,30,16,2.0,2.0,241,192.0,200.0,8.0
+video_05,q043,robbers are smashing store windows,198.0,206.0,NO,,,True,30,16,2.0,2.0,241,198.0,206.0,8.0
+video_05,q043,robbers are smashing store windows,204.0,209.0,NO,,,True,30,10,2.0,2.0,151,204.0,209.0,5.0
+video_05,q045,a person drops an object,0.0,20.0,YES 14.2-15.2,14.2,15.2,False,30,40,2.0,2.0,601,0.0,20.0,20.0
+video_05,q045,a person drops an object,16.0,36.0,NO,,,False,30,40,2.0,2.0,601,16.0,36.0,20.0
+video_05,q045,a person drops an object,16.0,24.0,NO,,,True,30,16,2.0,2.0,241,16.0,24.0,8.0
+video_05,q045,a person drops an object,22.0,30.0,NO,,,True,30,16,2.0,2.0,241,22.0,30.0,8.0
+video_05,q045,a person drops an object,28.0,36.0,NO,,,True,30,16,2.0,2.0,241,28.0,36.0,8.0
+video_05,q045,a person drops an object,32.0,52.0,NO,,,False,30,40,2.0,2.0,601,32.0,52.0,20.0
+video_05,q045,a person drops an object,32.0,40.0,NO,,,True,30,16,2.0,2.0,241,32.0,40.0,8.0
+video_05,q045,a person drops an object,38.0,46.0,NO,,,True,30,16,2.0,2.0,241,38.0,46.0,8.0
+video_05,q045,a person drops an object,44.0,52.0,NO,,,True,30,16,2.0,2.0,241,44.0,52.0,8.0
+video_05,q045,a person drops an object,48.0,68.0,YES 50.0-52.3,50.0,52.3,False,30,40,2.0,2.0,601,48.0,68.0,20.0
+video_05,q045,a person drops an object,64.0,84.0,NO,,,False,30,40,2.0,2.0,601,64.0,84.0,20.0
+video_05,q045,a person drops an object,64.0,72.0,NO,,,True,30,16,2.0,2.0,241,64.0,72.0,8.0
+video_05,q045,a person drops an object,70.0,78.0,NO,,,True,30,16,2.0,2.0,241,70.0,78.0,8.0
+video_05,q045,a person drops an object,76.0,84.0,NO,,,True,30,16,2.0,2.0,241,76.0,84.0,8.0
+video_05,q045,a person drops an object,80.0,100.0,YES 80.2-82.3,80.2,82.3,False,30,40,2.0,2.0,601,80.0,100.0,20.0
+video_05,q045,a person drops an object,96.0,116.0,NO,,,False,30,40,2.0,2.0,601,96.0,116.0,20.0
+video_05,q045,a person drops an object,96.0,104.0,NO,,,True,30,16,2.0,2.0,241,96.0,104.0,8.0
+video_05,q045,a person drops an object,102.0,110.0,NO,,,True,30,16,2.0,2.0,241,102.0,110.0,8.0
+video_05,q045,a person drops an object,108.0,116.0,NO,,,True,30,16,2.0,2.0,241,108.0,116.0,8.0
+video_05,q045,a person drops an object,112.0,132.0,NO,,,False,30,40,2.0,2.0,601,112.0,132.0,20.0
+video_05,q045,a person drops an object,112.0,120.0,NO,,,True,30,16,2.0,2.0,241,112.0,120.0,8.0
+video_05,q045,a person drops an object,118.0,126.0,NO,,,True,30,16,2.0,2.0,241,118.0,126.0,8.0
+video_05,q045,a person drops an object,124.0,132.0,NO,,,True,30,16,2.0,2.0,241,124.0,132.0,8.0
+video_05,q045,a person drops an object,128.0,148.0,NO,,,False,30,40,2.0,2.0,601,128.0,148.0,20.0
+video_05,q045,a person drops an object,128.0,136.0,NO,,,True,30,16,2.0,2.0,241,128.0,136.0,8.0
+video_05,q045,a person drops an object,134.0,142.0,NO,,,True,30,16,2.0,2.0,241,134.0,142.0,8.0
+video_05,q045,a person drops an object,140.0,148.0,NO,,,True,30,16,2.0,2.0,241,140.0,148.0,8.0
+video_05,q045,a person drops an object,144.0,164.0,NO,,,False,30,40,2.0,2.0,601,144.0,164.0,20.0
+video_05,q045,a person drops an object,144.0,152.0,NO,,,True,30,16,2.0,2.0,241,144.0,152.0,8.0
+video_05,q045,a person drops an object,150.0,158.0,NO,,,True,30,16,2.0,2.0,241,150.0,158.0,8.0
+video_05,q045,a person drops an object,156.0,164.0,NO,,,True,30,16,2.0,2.0,241,156.0,164.0,8.0
+video_05,q045,a person drops an object,160.0,180.0,NO,,,False,30,40,2.0,2.0,601,160.0,180.0,20.0
+video_05,q045,a person drops an object,160.0,168.0,NO,,,True,30,16,2.0,2.0,241,160.0,168.0,8.0
+video_05,q045,a person drops an object,166.0,174.0,NO,,,True,30,16,2.0,2.0,241,166.0,174.0,8.0
+video_05,q045,a person drops an object,172.0,180.0,NO,,,True,30,16,2.0,2.0,241,172.0,180.0,8.0
+video_05,q045,a person drops an object,176.0,196.0,NO,,,False,30,40,2.0,2.0,601,176.0,196.0,20.0
+video_05,q045,a person drops an object,176.0,184.0,NO,,,True,30,16,2.0,2.0,241,176.0,184.0,8.0
+video_05,q045,a person drops an object,182.0,190.0,NO,,,True,30,16,2.0,2.0,241,182.0,190.0,8.0
+video_05,q045,a person drops an object,188.0,196.0,NO,,,True,30,16,2.0,2.0,241,188.0,196.0,8.0
+video_05,q045,a person drops an object,192.0,209.0,NO,,,False,30,34,2.0,2.0,511,192.0,209.0,17.0
+video_05,q045,a person drops an object,192.0,200.0,NO,,,True,30,16,2.0,2.0,241,192.0,200.0,8.0
+video_05,q045,a person drops an object,198.0,206.0,NO,,,True,30,16,2.0,2.0,241,198.0,206.0,8.0
+video_05,q045,a person drops an object,204.0,209.0,NO,,,True,30,10,2.0,2.0,151,204.0,209.0,5.0
+video_06,q052,a person knocks on the door,0.0,20.0,NO,,,False,30,40,2.0,2.0,601,0.0,20.0,20.0
+video_06,q052,a person knocks on the door,0.0,8.0,NO,,,True,30,16,2.0,2.0,241,0.0,8.0,8.0
+video_06,q052,a person knocks on the door,6.0,14.0,NO,,,True,30,16,2.0,2.0,241,6.0,14.0,8.0
+video_06,q052,a person knocks on the door,12.0,20.0,NO,,,True,30,16,2.0,2.0,241,12.0,20.0,8.0
+video_06,q052,a person knocks on the door,16.0,36.0,YES 20.0-23.0,20.0,23.0,False,30,40,2.0,2.0,601,16.0,36.0,20.0
+video_06,q052,a person knocks on the door,32.0,52.0,NO,,,False,30,40,2.0,2.0,601,32.0,52.0,20.0
+video_06,q052,a person knocks on the door,32.0,40.0,NO,,,True,30,16,2.0,2.0,241,32.0,40.0,8.0
+video_06,q052,a person knocks on the door,38.0,46.0,NO,,,True,30,16,2.0,2.0,241,38.0,46.0,8.0
+video_06,q052,a person knocks on the door,44.0,52.0,NO,,,True,30,16,2.0,2.0,241,44.0,52.0,8.0
+video_06,q052,a person knocks on the door,48.0,68.0,NO,,,False,30,40,2.0,2.0,601,48.0,68.0,20.0
+video_06,q052,a person knocks on the door,48.0,56.0,YES 51.1-53.1,51.1,53.1,True,30,16,2.0,2.0,241,48.0,56.0,8.0
+video_06,q052,a person knocks on the door,54.0,62.0,YES 54.3-55.3,54.3,55.3,True,30,16,2.0,2.0,241,54.0,62.0,8.0
+video_06,q052,a person knocks on the door,60.0,68.0,NO,,,True,30,16,2.0,2.0,241,60.0,68.0,8.0
+video_06,q052,a person knocks on the door,64.0,84.0,NO,,,False,30,40,2.0,2.0,601,64.0,84.0,20.0
+video_06,q052,a person knocks on the door,64.0,72.0,NO,,,True,30,16,2.0,2.0,241,64.0,72.0,8.0
+video_06,q052,a person knocks on the door,70.0,78.0,NO,,,True,30,16,2.0,2.0,241,70.0,78.0,8.0
+video_06,q052,a person knocks on the door,76.0,84.0,NO,,,True,30,16,2.0,2.0,241,76.0,84.0,8.0
+video_06,q052,a person knocks on the door,80.0,100.0,NO,,,False,30,40,2.0,2.0,601,80.0,100.0,20.0
+video_06,q052,a person knocks on the door,80.0,88.0,NO,,,True,30,16,2.0,2.0,241,80.0,88.0,8.0
+video_06,q052,a person knocks on the door,86.0,94.0,YES 86.3-87.3,86.3,87.3,True,30,16,2.0,2.0,241,86.0,94.0,8.0
+video_06,q052,a person knocks on the door,92.0,100.0,NO,,,True,30,16,2.0,2.0,241,92.0,100.0,8.0
+video_06,q052,a person knocks on the door,96.0,116.0,NO,,,False,30,40,2.0,2.0,601,96.0,116.0,20.0
+video_06,q052,a person knocks on the door,96.0,104.0,NO,,,True,30,16,2.0,2.0,241,96.0,104.0,8.0
+video_06,q052,a person knocks on the door,102.0,110.0,NO,,,True,30,16,2.0,2.0,241,102.0,110.0,8.0
+video_06,q052,a person knocks on the door,108.0,116.0,NO,,,True,30,16,2.0,2.0,241,108.0,116.0,8.0
+video_06,q052,a person knocks on the door,112.0,132.0,NO,,,False,30,40,2.0,2.0,601,112.0,132.0,20.0
+video_06,q052,a person knocks on the door,112.0,120.0,NO,,,True,30,16,2.0,2.0,241,112.0,120.0,8.0
+video_06,q052,a person knocks on the door,118.0,126.0,NO,,,True,30,16,2.0,2.0,241,118.0,126.0,8.0
+video_06,q052,a person knocks on the door,124.0,132.0,NO,,,True,30,16,2.0,2.0,241,124.0,132.0,8.0
+video_06,q052,a person knocks on the door,128.0,148.0,NO,,,False,30,40,2.0,2.0,601,128.0,148.0,20.0
+video_06,q052,a person knocks on the door,128.0,136.0,NO,,,True,30,16,2.0,2.0,241,128.0,136.0,8.0
+video_06,q052,a person knocks on the door,134.0,142.0,NO,,,True,30,16,2.0,2.0,241,134.0,142.0,8.0
+video_06,q052,a person knocks on the door,140.0,148.0,NO,,,True,30,16,2.0,2.0,241,140.0,148.0,8.0
+video_06,q052,a person knocks on the door,144.0,164.0,NO,,,False,30,40,2.0,2.0,601,144.0,164.0,20.0
+video_06,q052,a person knocks on the door,144.0,152.0,NO,,,True,30,16,2.0,2.0,241,144.0,152.0,8.0
+video_06,q052,a person knocks on the door,150.0,158.0,NO,,,True,30,16,2.0,2.0,241,150.0,158.0,8.0
+video_06,q052,a person knocks on the door,156.0,164.0,NO,,,True,30,16,2.0,2.0,241,156.0,164.0,8.0
+video_06,q052,a person knocks on the door,160.0,180.0,NO,,,False,30,40,2.0,2.0,601,160.0,180.0,20.0
+video_06,q052,a person knocks on the door,160.0,168.0,NO,,,True,30,16,2.0,2.0,241,160.0,168.0,8.0
+video_06,q052,a person knocks on the door,166.0,174.0,YES 166.3-168.4,166.3,168.4,True,30,16,2.0,2.0,241,166.0,174.0,8.0
+video_06,q052,a person knocks on the door,172.0,180.0,NO,,,True,30,16,2.0,2.0,241,172.0,180.0,8.0
+video_06,q052,a person knocks on the door,176.0,196.0,NO,,,False,30,40,2.0,2.0,601,176.0,196.0,20.0
+video_06,q052,a person knocks on the door,176.0,184.0,NO,,,True,30,16,2.0,2.0,241,176.0,184.0,8.0
+video_06,q052,a person knocks on the door,182.0,190.0,NO,,,True,30,16,2.0,2.0,241,182.0,190.0,8.0
+video_06,q052,a person knocks on the door,188.0,196.0,NO,,,True,30,16,2.0,2.0,241,188.0,196.0,8.0
+video_06,q052,a person knocks on the door,192.0,212.0,NO,,,False,30,40,2.0,2.0,601,192.0,212.0,20.0
+video_06,q052,a person knocks on the door,192.0,200.0,NO,,,True,30,16,2.0,2.0,241,192.0,200.0,8.0
+video_06,q052,a person knocks on the door,198.0,206.0,NO,,,True,30,16,2.0,2.0,241,198.0,206.0,8.0
+video_06,q052,a person knocks on the door,204.0,212.0,NO,,,True,30,16,2.0,2.0,241,204.0,212.0,8.0
+video_06,q052,a person knocks on the door,208.0,228.0,NO,,,False,30,40,2.0,2.0,601,208.0,228.0,20.0
+video_06,q052,a person knocks on the door,208.0,216.0,NO,,,True,30,16,2.0,2.0,241,208.0,216.0,8.0
+video_06,q052,a person knocks on the door,214.0,222.0,NO,,,True,30,16,2.0,2.0,241,214.0,222.0,8.0
+video_06,q052,a person knocks on the door,220.0,228.0,NO,,,True,30,16,2.0,2.0,241,220.0,228.0,8.0
+video_06,q052,a person knocks on the door,224.0,244.0,NO,,,False,30,40,2.0,2.0,601,224.0,244.0,20.0
+video_06,q052,a person knocks on the door,224.0,232.0,NO,,,True,30,16,2.0,2.0,241,224.0,232.0,8.0
+video_06,q052,a person knocks on the door,230.0,238.0,NO,,,True,30,16,2.0,2.0,241,230.0,238.0,8.0
+video_06,q052,a person knocks on the door,236.0,244.0,NO,,,True,30,16,2.0,2.0,241,236.0,244.0,8.0
+video_06,q052,a person knocks on the door,240.0,257.0,NO,,,False,30,34,2.0,2.0,511,240.0,257.0,17.0
+video_06,q052,a person knocks on the door,240.0,248.0,NO,,,True,30,16,2.0,2.0,241,240.0,248.0,8.0
+video_06,q052,a person knocks on the door,246.0,254.0,NO,,,True,30,16,2.0,2.0,241,246.0,254.0,8.0
+video_06,q052,a person knocks on the door,252.0,257.0,NO,,,True,30,10,2.0,2.0,151,252.0,257.0,5.0
+video_06,q053,a person forces the door open,0.0,20.0,NO,,,False,30,40,2.0,2.0,601,0.0,20.0,20.0
+video_06,q053,a person forces the door open,0.0,8.0,NO,,,True,30,16,2.0,2.0,241,0.0,8.0,8.0
+video_06,q053,a person forces the door open,6.0,14.0,NO,,,True,30,16,2.0,2.0,241,6.0,14.0,8.0
+video_06,q053,a person forces the door open,12.0,20.0,NO,,,True,30,16,2.0,2.0,241,12.0,20.0,8.0
+video_06,q053,a person forces the door open,16.0,36.0,NO,,,False,30,40,2.0,2.0,601,16.0,36.0,20.0
+video_06,q053,a person forces the door open,16.0,24.0,NO,,,True,30,16,2.0,2.0,241,16.0,24.0,8.0
+video_06,q053,a person forces the door open,22.0,30.0,NO,,,True,30,16,2.0,2.0,241,22.0,30.0,8.0
+video_06,q053,a person forces the door open,28.0,36.0,NO,,,True,30,16,2.0,2.0,241,28.0,36.0,8.0
+video_06,q053,a person forces the door open,32.0,52.0,NO,,,False,30,40,2.0,2.0,601,32.0,52.0,20.0
+video_06,q053,a person forces the door open,32.0,40.0,NO,,,True,30,16,2.0,2.0,241,32.0,40.0,8.0
+video_06,q053,a person forces the door open,38.0,46.0,NO,,,True,30,16,2.0,2.0,241,38.0,46.0,8.0
+video_06,q053,a person forces the door open,44.0,52.0,NO,,,True,30,16,2.0,2.0,241,44.0,52.0,8.0
+video_06,q053,a person forces the door open,48.0,68.0,NO,,,False,30,40,2.0,2.0,601,48.0,68.0,20.0
+video_06,q053,a person forces the door open,48.0,56.0,NO,,,True,30,16,2.0,2.0,241,48.0,56.0,8.0
+video_06,q053,a person forces the door open,54.0,62.0,NO,,,True,30,16,2.0,2.0,241,54.0,62.0,8.0
+video_06,q053,a person forces the door open,60.0,68.0,NO,,,True,30,16,2.0,2.0,241,60.0,68.0,8.0
+video_06,q053,a person forces the door open,64.0,84.0,NO,,,False,30,40,2.0,2.0,601,64.0,84.0,20.0
+video_06,q053,a person forces the door open,64.0,72.0,NO,,,True,30,16,2.0,2.0,241,64.0,72.0,8.0
+video_06,q053,a person forces the door open,70.0,78.0,NO,,,True,30,16,2.0,2.0,241,70.0,78.0,8.0
+video_06,q053,a person forces the door open,76.0,84.0,NO,,,True,30,16,2.0,2.0,241,76.0,84.0,8.0
+video_06,q053,a person forces the door open,80.0,100.0,NO,,,False,30,40,2.0,2.0,601,80.0,100.0,20.0
+video_06,q053,a person forces the door open,80.0,88.0,NO,,,True,30,16,2.0,2.0,241,80.0,88.0,8.0
+video_06,q053,a person forces the door open,86.0,94.0,NO,,,True,30,16,2.0,2.0,241,86.0,94.0,8.0
+video_06,q053,a person forces the door open,92.0,100.0,NO,,,True,30,16,2.0,2.0,241,92.0,100.0,8.0
+video_06,q053,a person forces the door open,96.0,116.0,NO,,,False,30,40,2.0,2.0,601,96.0,116.0,20.0
+video_06,q053,a person forces the door open,96.0,104.0,NO,,,True,30,16,2.0,2.0,241,96.0,104.0,8.0
+video_06,q053,a person forces the door open,102.0,110.0,NO,,,True,30,16,2.0,2.0,241,102.0,110.0,8.0
+video_06,q053,a person forces the door open,108.0,116.0,NO,,,True,30,16,2.0,2.0,241,108.0,116.0,8.0
+video_06,q053,a person forces the door open,112.0,132.0,NO,,,False,30,40,2.0,2.0,601,112.0,132.0,20.0
+video_06,q053,a person forces the door open,112.0,120.0,NO,,,True,30,16,2.0,2.0,241,112.0,120.0,8.0
+video_06,q053,a person forces the door open,118.0,126.0,NO,,,True,30,16,2.0,2.0,241,118.0,126.0,8.0
+video_06,q053,a person forces the door open,124.0,132.0,NO,,,True,30,16,2.0,2.0,241,124.0,132.0,8.0
+video_06,q053,a person forces the door open,128.0,148.0,NO,,,False,30,40,2.0,2.0,601,128.0,148.0,20.0
+video_06,q053,a person forces the door open,128.0,136.0,NO,,,True,30,16,2.0,2.0,241,128.0,136.0,8.0
+video_06,q053,a person forces the door open,134.0,142.0,NO,,,True,30,16,2.0,2.0,241,134.0,142.0,8.0
+video_06,q053,a person forces the door open,140.0,148.0,NO,,,True,30,16,2.0,2.0,241,140.0,148.0,8.0
+video_06,q053,a person forces the door open,144.0,164.0,NO,,,False,30,40,2.0,2.0,601,144.0,164.0,20.0
+video_06,q053,a person forces the door open,144.0,152.0,NO,,,True,30,16,2.0,2.0,241,144.0,152.0,8.0
+video_06,q053,a person forces the door open,150.0,158.0,NO,,,True,30,16,2.0,2.0,241,150.0,158.0,8.0
+video_06,q053,a person forces the door open,156.0,164.0,NO,,,True,30,16,2.0,2.0,241,156.0,164.0,8.0
+video_06,q053,a person forces the door open,160.0,180.0,NO,,,False,30,40,2.0,2.0,601,160.0,180.0,20.0
+video_06,q053,a person forces the door open,160.0,168.0,NO,,,True,30,16,2.0,2.0,241,160.0,168.0,8.0
+video_06,q053,a person forces the door open,166.0,174.0,NO,,,True,30,16,2.0,2.0,241,166.0,174.0,8.0
+video_06,q053,a person forces the door open,172.0,180.0,NO,,,True,30,16,2.0,2.0,241,172.0,180.0,8.0
+video_06,q053,a person forces the door open,176.0,196.0,NO,,,False,30,40,2.0,2.0,601,176.0,196.0,20.0
+video_06,q053,a person forces the door open,176.0,184.0,NO,,,True,30,16,2.0,2.0,241,176.0,184.0,8.0
+video_06,q053,a person forces the door open,182.0,190.0,NO,,,True,30,16,2.0,2.0,241,182.0,190.0,8.0
+video_06,q053,a person forces the door open,188.0,196.0,NO,,,True,30,16,2.0,2.0,241,188.0,196.0,8.0
+video_06,q053,a person forces the door open,192.0,212.0,NO,,,False,30,40,2.0,2.0,601,192.0,212.0,20.0
+video_06,q053,a person forces the door open,192.0,200.0,NO,,,True,30,16,2.0,2.0,241,192.0,200.0,8.0
+video_06,q053,a person forces the door open,198.0,206.0,NO,,,True,30,16,2.0,2.0,241,198.0,206.0,8.0
+video_06,q053,a person forces the door open,204.0,212.0,NO,,,True,30,16,2.0,2.0,241,204.0,212.0,8.0
+video_06,q053,a person forces the door open,208.0,228.0,NO,,,False,30,40,2.0,2.0,601,208.0,228.0,20.0
+video_06,q053,a person forces the door open,208.0,216.0,NO,,,True,30,16,2.0,2.0,241,208.0,216.0,8.0
+video_06,q053,a person forces the door open,214.0,222.0,NO,,,True,30,16,2.0,2.0,241,214.0,222.0,8.0
+video_06,q053,a person forces the door open,220.0,228.0,NO,,,True,30,16,2.0,2.0,241,220.0,228.0,8.0
+video_06,q053,a person forces the door open,224.0,244.0,NO,,,False,30,40,2.0,2.0,601,224.0,244.0,20.0
+video_06,q053,a person forces the door open,224.0,232.0,NO,,,True,30,16,2.0,2.0,241,224.0,232.0,8.0
+video_06,q053,a person forces the door open,230.0,238.0,NO,,,True,30,16,2.0,2.0,241,230.0,238.0,8.0
+video_06,q053,a person forces the door open,236.0,244.0,NO,,,True,30,16,2.0,2.0,241,236.0,244.0,8.0
+video_06,q053,a person forces the door open,240.0,257.0,NO,,,False,30,34,2.0,2.0,511,240.0,257.0,17.0
+video_06,q053,a person forces the door open,240.0,248.0,NO,,,True,30,16,2.0,2.0,241,240.0,248.0,8.0
+video_06,q053,a person forces the door open,246.0,254.0,NO,,,True,30,16,2.0,2.0,241,246.0,254.0,8.0
+video_06,q053,a person forces the door open,252.0,257.0,NO,,,True,30,10,2.0,2.0,151,252.0,257.0,5.0
+video_06,q054,people run out of the house,0.0,20.0,NO,,,False,30,40,2.0,2.0,601,0.0,20.0,20.0
+video_06,q054,people run out of the house,0.0,8.0,NO,,,True,30,16,2.0,2.0,241,0.0,8.0,8.0
+video_06,q054,people run out of the house,6.0,14.0,NO,,,True,30,16,2.0,2.0,241,6.0,14.0,8.0
+video_06,q054,people run out of the house,12.0,20.0,NO,,,True,30,16,2.0,2.0,241,12.0,20.0,8.0
+video_06,q054,people run out of the house,16.0,36.0,NO,,,False,30,40,2.0,2.0,601,16.0,36.0,20.0
+video_06,q054,people run out of the house,16.0,24.0,NO,,,True,30,16,2.0,2.0,241,16.0,24.0,8.0
+video_06,q054,people run out of the house,22.0,30.0,NO,,,True,30,16,2.0,2.0,241,22.0,30.0,8.0
+video_06,q054,people run out of the house,28.0,36.0,NO,,,True,30,16,2.0,2.0,241,28.0,36.0,8.0
+video_06,q054,people run out of the house,32.0,52.0,NO,,,False,30,40,2.0,2.0,601,32.0,52.0,20.0
+video_06,q054,people run out of the house,32.0,40.0,NO,,,True,30,16,2.0,2.0,241,32.0,40.0,8.0
+video_06,q054,people run out of the house,38.0,46.0,NO,,,True,30,16,2.0,2.0,241,38.0,46.0,8.0
+video_06,q054,people run out of the house,44.0,52.0,NO,,,True,30,16,2.0,2.0,241,44.0,52.0,8.0
+video_06,q054,people run out of the house,48.0,68.0,NO,,,False,30,40,2.0,2.0,601,48.0,68.0,20.0
+video_06,q054,people run out of the house,48.0,56.0,NO,,,True,30,16,2.0,2.0,241,48.0,56.0,8.0
+video_06,q054,people run out of the house,54.0,62.0,NO,,,True,30,16,2.0,2.0,241,54.0,62.0,8.0
+video_06,q054,people run out of the house,60.0,68.0,NO,,,True,30,16,2.0,2.0,241,60.0,68.0,8.0
+video_06,q054,people run out of the house,64.0,84.0,NO,,,False,30,40,2.0,2.0,601,64.0,84.0,20.0
+video_06,q054,people run out of the house,64.0,72.0,NO,,,True,30,16,2.0,2.0,241,64.0,72.0,8.0
+video_06,q054,people run out of the house,70.0,78.0,NO,,,True,30,16,2.0,2.0,241,70.0,78.0,8.0
+video_06,q054,people run out of the house,76.0,84.0,NO,,,True,30,16,2.0,2.0,241,76.0,84.0,8.0
+video_06,q054,people run out of the house,80.0,100.0,NO,,,False,30,40,2.0,2.0,601,80.0,100.0,20.0
+video_06,q054,people run out of the house,80.0,88.0,NO,,,True,30,16,2.0,2.0,241,80.0,88.0,8.0
+video_06,q054,people run out of the house,86.0,94.0,NO,,,True,30,16,2.0,2.0,241,86.0,94.0,8.0
+video_06,q054,people run out of the house,92.0,100.0,NO,,,True,30,16,2.0,2.0,241,92.0,100.0,8.0
+video_06,q054,people run out of the house,96.0,116.0,NO,,,False,30,40,2.0,2.0,601,96.0,116.0,20.0
+video_06,q054,people run out of the house,96.0,104.0,NO,,,True,30,16,2.0,2.0,241,96.0,104.0,8.0
+video_06,q054,people run out of the house,102.0,110.0,NO,,,True,30,16,2.0,2.0,241,102.0,110.0,8.0
+video_06,q054,people run out of the house,108.0,116.0,NO,,,True,30,16,2.0,2.0,241,108.0,116.0,8.0
+video_06,q054,people run out of the house,112.0,132.0,NO,,,False,30,40,2.0,2.0,601,112.0,132.0,20.0
+video_06,q054,people run out of the house,112.0,120.0,NO,,,True,30,16,2.0,2.0,241,112.0,120.0,8.0
+video_06,q054,people run out of the house,118.0,126.0,NO,,,True,30,16,2.0,2.0,241,118.0,126.0,8.0
+video_06,q054,people run out of the house,124.0,132.0,NO,,,True,30,16,2.0,2.0,241,124.0,132.0,8.0
+video_06,q054,people run out of the house,128.0,148.0,NO,,,False,30,40,2.0,2.0,601,128.0,148.0,20.0
+video_06,q054,people run out of the house,128.0,136.0,NO,,,True,30,16,2.0,2.0,241,128.0,136.0,8.0
+video_06,q054,people run out of the house,134.0,142.0,NO,,,True,30,16,2.0,2.0,241,134.0,142.0,8.0
+video_06,q054,people run out of the house,140.0,148.0,NO,,,True,30,16,2.0,2.0,241,140.0,148.0,8.0
+video_06,q054,people run out of the house,144.0,164.0,NO,,,False,30,40,2.0,2.0,601,144.0,164.0,20.0
+video_06,q054,people run out of the house,144.0,152.0,NO,,,True,30,16,2.0,2.0,241,144.0,152.0,8.0
+video_06,q054,people run out of the house,150.0,158.0,NO,,,True,30,16,2.0,2.0,241,150.0,158.0,8.0
+video_06,q054,people run out of the house,156.0,164.0,NO,,,True,30,16,2.0,2.0,241,156.0,164.0,8.0
+video_06,q054,people run out of the house,160.0,180.0,NO,,,False,30,40,2.0,2.0,601,160.0,180.0,20.0
+video_06,q054,people run out of the house,160.0,168.0,NO,,,True,30,16,2.0,2.0,241,160.0,168.0,8.0
+video_06,q054,people run out of the house,166.0,174.0,NO,,,True,30,16,2.0,2.0,241,166.0,174.0,8.0
+video_06,q054,people run out of the house,172.0,180.0,NO,,,True,30,16,2.0,2.0,241,172.0,180.0,8.0
+video_06,q054,people run out of the house,176.0,196.0,NO,,,False,30,40,2.0,2.0,601,176.0,196.0,20.0
+video_06,q054,people run out of the house,176.0,184.0,NO,,,True,30,16,2.0,2.0,241,176.0,184.0,8.0
+video_06,q054,people run out of the house,182.0,190.0,NO,,,True,30,16,2.0,2.0,241,182.0,190.0,8.0
+video_06,q054,people run out of the house,188.0,196.0,NO,,,True,30,16,2.0,2.0,241,188.0,196.0,8.0
+video_06,q054,people run out of the house,192.0,212.0,NO,,,False,30,40,2.0,2.0,601,192.0,212.0,20.0
+video_06,q054,people run out of the house,192.0,200.0,NO,,,True,30,16,2.0,2.0,241,192.0,200.0,8.0
+video_06,q054,people run out of the house,198.0,206.0,NO,,,True,30,16,2.0,2.0,241,198.0,206.0,8.0
+video_06,q054,people run out of the house,204.0,212.0,NO,,,True,30,16,2.0,2.0,241,204.0,212.0,8.0
+video_06,q054,people run out of the house,208.0,228.0,NO,,,False,30,40,2.0,2.0,601,208.0,228.0,20.0
+video_06,q054,people run out of the house,208.0,216.0,YES 3.4-10.7,,,True,30,16,2.0,2.0,241,208.0,216.0,8.0
+video_06,q054,people run out of the house,214.0,222.0,NO,,,True,30,16,2.0,2.0,241,214.0,222.0,8.0
+video_06,q054,people run out of the house,220.0,228.0,NO,,,True,30,16,2.0,2.0,241,220.0,228.0,8.0
+video_06,q054,people run out of the house,224.0,244.0,NO,,,False,30,40,2.0,2.0,601,224.0,244.0,20.0
+video_06,q054,people run out of the house,224.0,232.0,NO,,,True,30,16,2.0,2.0,241,224.0,232.0,8.0
+video_06,q054,people run out of the house,230.0,238.0,NO,,,True,30,16,2.0,2.0,241,230.0,238.0,8.0
+video_06,q054,people run out of the house,236.0,244.0,NO,,,True,30,16,2.0,2.0,241,236.0,244.0,8.0
+video_06,q054,people run out of the house,240.0,257.0,NO,,,False,30,34,2.0,2.0,511,240.0,257.0,17.0
+video_06,q054,people run out of the house,240.0,248.0,NO,,,True,30,16,2.0,2.0,241,240.0,248.0,8.0
+video_06,q054,people run out of the house,246.0,254.0,NO,,,True,30,16,2.0,2.0,241,246.0,254.0,8.0
+video_06,q054,people run out of the house,252.0,257.0,NO,,,True,30,10,2.0,2.0,151,252.0,257.0,5.0
+video_07,q061,several men lift the tractor back up,0.0,20.0,NO,,,False,30,40,2.0,2.0,601,0.0,20.0,20.0
+video_07,q061,several men lift the tractor back up,0.0,8.0,NO,,,True,30,16,2.0,2.0,241,0.0,8.0,8.0
+video_07,q061,several men lift the tractor back up,6.0,14.0,NO,,,True,30,16,2.0,2.0,241,6.0,14.0,8.0
+video_07,q061,several men lift the tractor back up,12.0,20.0,NO,,,True,30,16,2.0,2.0,241,12.0,20.0,8.0
+video_07,q061,several men lift the tractor back up,16.0,36.0,NO,,,False,30,40,2.0,2.0,601,16.0,36.0,20.0
+video_07,q061,several men lift the tractor back up,16.0,24.0,NO,,,True,30,16,2.0,2.0,241,16.0,24.0,8.0
+video_07,q061,several men lift the tractor back up,22.0,30.0,NO,,,True,30,16,2.0,2.0,241,22.0,30.0,8.0
+video_07,q061,several men lift the tractor back up,28.0,36.0,NO,,,True,30,16,2.0,2.0,241,28.0,36.0,8.0
+video_07,q061,several men lift the tractor back up,32.0,52.0,NO,,,False,30,40,2.0,2.0,601,32.0,52.0,20.0
+video_07,q061,several men lift the tractor back up,32.0,40.0,NO,,,True,30,16,2.0,2.0,241,32.0,40.0,8.0
+video_07,q061,several men lift the tractor back up,38.0,46.0,NO,,,True,30,16,2.0,2.0,241,38.0,46.0,8.0
+video_07,q061,several men lift the tractor back up,44.0,52.0,NO,,,True,30,16,2.0,2.0,241,44.0,52.0,8.0
+video_07,q061,several men lift the tractor back up,48.0,68.0,NO,,,False,30,40,2.0,2.0,601,48.0,68.0,20.0
+video_07,q061,several men lift the tractor back up,48.0,56.0,NO,,,True,30,16,2.0,2.0,241,48.0,56.0,8.0
+video_07,q061,several men lift the tractor back up,54.0,62.0,NO,,,True,30,16,2.0,2.0,241,54.0,62.0,8.0
+video_07,q061,several men lift the tractor back up,60.0,68.0,NO,,,True,30,16,2.0,2.0,241,60.0,68.0,8.0
+video_07,q061,several men lift the tractor back up,64.0,84.0,NO,,,False,30,40,2.0,2.0,601,64.0,84.0,20.0
+video_07,q061,several men lift the tractor back up,64.0,72.0,NO,,,True,30,16,2.0,2.0,241,64.0,72.0,8.0
+video_07,q061,several men lift the tractor back up,70.0,78.0,NO,,,True,30,16,2.0,2.0,241,70.0,78.0,8.0
+video_07,q061,several men lift the tractor back up,76.0,84.0,NO,,,True,30,16,2.0,2.0,241,76.0,84.0,8.0
+video_07,q061,several men lift the tractor back up,80.0,100.0,NO,,,False,30,40,2.0,2.0,601,80.0,100.0,20.0
+video_07,q061,several men lift the tractor back up,80.0,88.0,NO,,,True,30,16,2.0,2.0,241,80.0,88.0,8.0
+video_07,q061,several men lift the tractor back up,86.0,94.0,NO,,,True,30,16,2.0,2.0,241,86.0,94.0,8.0
+video_07,q061,several men lift the tractor back up,92.0,100.0,NO,,,True,30,16,2.0,2.0,241,92.0,100.0,8.0
+video_07,q061,several men lift the tractor back up,96.0,116.0,NO,,,False,30,40,2.0,2.0,601,96.0,116.0,20.0
+video_07,q061,several men lift the tractor back up,96.0,104.0,NO,,,True,30,16,2.0,2.0,241,96.0,104.0,8.0
+video_07,q061,several men lift the tractor back up,102.0,110.0,NO,,,True,30,16,2.0,2.0,241,102.0,110.0,8.0
+video_07,q061,several men lift the tractor back up,108.0,116.0,NO,,,True,30,16,2.0,2.0,241,108.0,116.0,8.0
+video_07,q061,several men lift the tractor back up,112.0,132.0,NO,,,False,30,40,2.0,2.0,601,112.0,132.0,20.0
+video_07,q061,several men lift the tractor back up,112.0,120.0,NO,,,True,30,16,2.0,2.0,241,112.0,120.0,8.0
+video_07,q061,several men lift the tractor back up,118.0,126.0,NO,,,True,30,16,2.0,2.0,241,118.0,126.0,8.0
+video_07,q061,several men lift the tractor back up,124.0,132.0,NO,,,True,30,16,2.0,2.0,241,124.0,132.0,8.0
+video_07,q061,several men lift the tractor back up,128.0,148.0,NO,,,False,30,40,2.0,2.0,601,128.0,148.0,20.0
+video_07,q061,several men lift the tractor back up,128.0,136.0,NO,,,True,30,16,2.0,2.0,241,128.0,136.0,8.0
+video_07,q061,several men lift the tractor back up,134.0,142.0,NO,,,True,30,16,2.0,2.0,241,134.0,142.0,8.0
+video_07,q061,several men lift the tractor back up,140.0,148.0,NO,,,True,30,16,2.0,2.0,241,140.0,148.0,8.0
+video_07,q061,several men lift the tractor back up,144.0,164.0,NO,,,False,30,40,2.0,2.0,601,144.0,164.0,20.0
+video_07,q061,several men lift the tractor back up,144.0,152.0,NO,,,True,30,16,2.0,2.0,241,144.0,152.0,8.0
+video_07,q061,several men lift the tractor back up,150.0,158.0,NO,,,True,30,16,2.0,2.0,241,150.0,158.0,8.0
+video_07,q061,several men lift the tractor back up,156.0,164.0,NO,,,True,30,16,2.0,2.0,241,156.0,164.0,8.0
+video_07,q061,several men lift the tractor back up,160.0,180.0,NO,,,False,30,40,2.0,2.0,601,160.0,180.0,20.0
+video_07,q061,several men lift the tractor back up,160.0,168.0,NO,,,True,30,16,2.0,2.0,241,160.0,168.0,8.0
+video_07,q061,several men lift the tractor back up,166.0,174.0,NO,,,True,30,16,2.0,2.0,241,166.0,174.0,8.0
+video_07,q061,several men lift the tractor back up,172.0,180.0,NO,,,True,30,16,2.0,2.0,241,172.0,180.0,8.0
+video_07,q061,several men lift the tractor back up,176.0,196.0,NO,,,False,30,40,2.0,2.0,601,176.0,196.0,20.0
+video_07,q061,several men lift the tractor back up,176.0,184.0,NO,,,True,30,16,2.0,2.0,241,176.0,184.0,8.0
+video_07,q061,several men lift the tractor back up,182.0,190.0,NO,,,True,30,16,2.0,2.0,241,182.0,190.0,8.0
+video_07,q061,several men lift the tractor back up,188.0,196.0,NO,,,True,30,16,2.0,2.0,241,188.0,196.0,8.0
+video_07,q061,several men lift the tractor back up,192.0,212.0,NO,,,False,30,40,2.0,2.0,601,192.0,212.0,20.0
+video_07,q061,several men lift the tractor back up,192.0,200.0,NO,,,True,30,16,2.0,2.0,241,192.0,200.0,8.0
+video_07,q061,several men lift the tractor back up,198.0,206.0,NO,,,True,30,16,2.0,2.0,241,198.0,206.0,8.0
+video_07,q061,several men lift the tractor back up,204.0,212.0,NO,,,True,30,16,2.0,2.0,241,204.0,212.0,8.0
+video_07,q061,several men lift the tractor back up,208.0,228.0,NO,,,False,30,40,2.0,2.0,601,208.0,228.0,20.0
+video_07,q061,several men lift the tractor back up,208.0,216.0,NO,,,True,30,16,2.0,2.0,241,208.0,216.0,8.0
+video_07,q061,several men lift the tractor back up,214.0,222.0,NO,,,True,30,16,2.0,2.0,241,214.0,222.0,8.0
+video_07,q061,several men lift the tractor back up,220.0,228.0,NO,,,True,30,16,2.0,2.0,241,220.0,228.0,8.0
+video_07,q061,several men lift the tractor back up,224.0,244.0,NO,,,False,30,40,2.0,2.0,601,224.0,244.0,20.0
+video_07,q061,several men lift the tractor back up,224.0,232.0,NO,,,True,30,16,2.0,2.0,241,224.0,232.0,8.0
+video_07,q061,several men lift the tractor back up,230.0,238.0,NO,,,True,30,16,2.0,2.0,241,230.0,238.0,8.0
+video_07,q061,several men lift the tractor back up,236.0,244.0,NO,,,True,30,16,2.0,2.0,241,236.0,244.0,8.0
+video_07,q061,several men lift the tractor back up,240.0,260.0,NO,,,False,30,40,2.0,2.0,601,240.0,260.0,20.0
+video_07,q061,several men lift the tractor back up,240.0,248.0,NO,,,True,30,16,2.0,2.0,241,240.0,248.0,8.0
+video_07,q061,several men lift the tractor back up,246.0,254.0,NO,,,True,30,16,2.0,2.0,241,246.0,254.0,8.0
+video_07,q061,several men lift the tractor back up,252.0,260.0,NO,,,True,30,16,2.0,2.0,241,252.0,260.0,8.0
+video_07,q061,several men lift the tractor back up,256.0,276.0,NO,,,False,30,40,2.0,2.0,601,256.0,276.0,20.0
+video_07,q061,several men lift the tractor back up,256.0,264.0,NO,,,True,30,16,2.0,2.0,241,256.0,264.0,8.0
+video_07,q061,several men lift the tractor back up,262.0,270.0,NO,,,True,30,16,2.0,2.0,241,262.0,270.0,8.0
+video_07,q061,several men lift the tractor back up,268.0,276.0,NO,,,True,30,16,2.0,2.0,241,268.0,276.0,8.0
+video_07,q061,several men lift the tractor back up,272.0,292.0,NO,,,False,30,40,2.0,2.0,601,272.0,292.0,20.0
+video_07,q061,several men lift the tractor back up,272.0,280.0,NO,,,True,30,16,2.0,2.0,241,272.0,280.0,8.0
+video_07,q061,several men lift the tractor back up,278.0,286.0,NO,,,True,30,16,2.0,2.0,241,278.0,286.0,8.0
+video_07,q061,several men lift the tractor back up,284.0,292.0,NO,,,True,30,16,2.0,2.0,241,284.0,292.0,8.0
+video_07,q061,several men lift the tractor back up,288.0,299.0,NO,,,False,30,22,2.0,2.0,331,288.0,299.0,11.0
+video_07,q061,several men lift the tractor back up,288.0,296.0,NO,,,True,30,16,2.0,2.0,241,288.0,296.0,8.0
+video_07,q061,several men lift the tractor back up,294.0,299.0,NO,,,True,30,10,2.0,2.0,151,294.0,299.0,5.0
+video_07,q062,a tractor tips over,18.0,28.0,NO,,,False,30,20,2.0,2.0,301,18.0,28.0,10.0
+video_07,q062,a tractor tips over,18.0,26.0,NO,,,True,30,16,2.0,2.0,241,18.0,26.0,8.0
+video_07,q062,a tractor tips over,24.0,28.0,NO,,,True,30,8,2.0,2.0,121,24.0,28.0,4.0
+video_07,q062,a tractor tips over,36.0,56.0,YES 49.8-52.2,49.8,52.2,False,30,40,2.0,2.0,601,36.0,56.0,20.0
+video_07,q062,a tractor tips over,52.0,57.0,NO,,,False,30,10,2.0,2.0,151,52.0,57.0,5.0
+video_07,q062,a tractor tips over,163.0,183.0,NO,,,False,30,40,2.0,2.0,601,163.0,183.0,20.0
+video_07,q062,a tractor tips over,163.0,171.0,NO,,,True,30,16,2.0,2.0,241,163.0,171.0,8.0
+video_07,q062,a tractor tips over,169.0,177.0,NO,,,True,30,16,2.0,2.0,241,169.0,177.0,8.0
+video_07,q062,a tractor tips over,175.0,183.0,NO,,,True,30,16,2.0,2.0,241,175.0,183.0,8.0
+video_07,q062,a tractor tips over,179.0,199.0,NO,,,False,30,40,2.0,2.0,601,179.0,199.0,20.0
+video_07,q062,a tractor tips over,179.0,187.0,NO,,,True,30,16,2.0,2.0,241,179.0,187.0,8.0
+video_07,q062,a tractor tips over,185.0,193.0,NO,,,True,30,16,2.0,2.0,241,185.0,193.0,8.0
+video_07,q062,a tractor tips over,191.0,199.0,NO,,,True,30,16,2.0,2.0,241,191.0,199.0,8.0
+video_07,q062,a tractor tips over,195.0,203.0,NO,,,False,30,16,2.0,2.0,241,195.0,203.0,8.0
+video_07,q062,a tractor tips over,209.0,227.0,NO,,,False,30,36,2.0,2.0,541,209.0,227.0,18.0
+video_07,q062,a tractor tips over,209.0,217.0,NO,,,True,30,16,2.0,2.0,241,209.0,217.0,8.0
+video_07,q062,a tractor tips over,215.0,223.0,NO,,,True,30,16,2.0,2.0,241,215.0,223.0,8.0
+video_07,q062,a tractor tips over,221.0,227.0,NO,,,True,30,12,2.0,2.0,181,221.0,227.0,6.0
+video_07,q063,a tractor is operating,18.0,28.0,NO,,,False,30,20,2.0,2.0,301,18.0,28.0,10.0
+video_07,q063,a tractor is operating,18.0,26.0,NO,,,True,30,16,2.0,2.0,241,18.0,26.0,8.0
+video_07,q063,a tractor is operating,24.0,28.0,NO,,,True,30,8,2.0,2.0,121,24.0,28.0,4.0
+video_07,q063,a tractor is operating,36.0,56.0,NO,,,False,30,40,2.0,2.0,601,36.0,56.0,20.0
+video_07,q063,a tractor is operating,36.0,44.0,NO,,,True,30,16,2.0,2.0,241,36.0,44.0,8.0
+video_07,q063,a tractor is operating,42.0,50.0,YES 42.3-44.4,42.3,44.4,True,30,16,2.0,2.0,241,42.0,50.0,8.0
+video_07,q063,a tractor is operating,48.0,56.0,YES 48.3-50.4,48.3,50.4,True,30,16,2.0,2.0,241,48.0,56.0,8.0
+video_07,q063,a tractor is operating,52.0,57.0,NO,,,False,30,10,2.0,2.0,151,52.0,57.0,5.0
+video_07,q063,a tractor is operating,163.0,183.0,NO,,,False,30,40,2.0,2.0,601,163.0,183.0,20.0
+video_07,q063,a tractor is operating,163.0,171.0,YES 163.3-165.4,163.3,165.4,True,30,16,2.0,2.0,241,163.0,171.0,8.0
+video_07,q063,a tractor is operating,169.0,177.0,YES 170.3-174.6,170.3,174.6,True,30,16,2.0,2.0,241,169.0,177.0,8.0
+video_07,q063,a tractor is operating,175.0,183.0,NO,,,True,30,16,2.0,2.0,241,175.0,183.0,8.0
+video_07,q063,a tractor is operating,179.0,199.0,YES 180.0-198.0,180.0,198.0,False,30,40,2.0,2.0,601,179.0,199.0,20.0
+video_07,q063,a tractor is operating,195.0,203.0,YES 195.3-202.7,195.3,202.7,False,30,16,2.0,2.0,241,195.0,203.0,8.0
+video_07,q063,a tractor is operating,209.0,227.0,YES 210.0-227.0,210.0,227.0,False,30,36,2.0,2.0,541,209.0,227.0,18.0
+video_08,q070,a person puts items into a shopping cart,0.0,20.0,NO,,,False,30.000000000000004,40,2.0,2.0,601,0.0,19.999999999999996,19.999999999999996
+video_08,q070,a person puts items into a shopping cart,0.0,8.0,NO,,,True,30.000000000000004,16,2.0,2.0,241,0.0,7.999999999999999,7.999999999999999
+video_08,q070,a person puts items into a shopping cart,6.0,14.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,6.033333333333332,13.999999999999998,7.966666666666666
+video_08,q070,a person puts items into a shopping cart,12.0,20.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,12.033333333333331,19.999999999999996,7.966666666666665
+video_08,q070,a person puts items into a shopping cart,16.0,36.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,16.03333333333333,35.99999999999999,19.96666666666666
+video_08,q070,a person puts items into a shopping cart,16.0,24.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,16.03333333333333,23.999999999999996,7.966666666666665
+video_08,q070,a person puts items into a shopping cart,22.0,30.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,22.03333333333333,29.999999999999996,7.966666666666665
+video_08,q070,a person puts items into a shopping cart,28.0,36.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,28.03333333333333,35.99999999999999,7.9666666666666615
+video_08,q070,a person puts items into a shopping cart,32.0,52.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,32.03333333333333,51.99999999999999,19.96666666666666
+video_08,q070,a person puts items into a shopping cart,32.0,40.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,32.03333333333333,39.99999999999999,7.9666666666666615
+video_08,q070,a person puts items into a shopping cart,38.0,46.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,38.03333333333333,45.99999999999999,7.9666666666666615
+video_08,q070,a person puts items into a shopping cart,44.0,52.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,44.03333333333333,51.99999999999999,7.9666666666666615
+video_08,q070,a person puts items into a shopping cart,48.0,68.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,48.033333333333324,67.99999999999999,19.96666666666666
+video_08,q070,a person puts items into a shopping cart,48.0,56.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,48.033333333333324,55.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,54.0,62.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,54.033333333333324,61.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,60.0,68.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,60.033333333333324,67.99999999999999,7.9666666666666615
+video_08,q070,a person puts items into a shopping cart,64.0,84.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,64.03333333333333,83.99999999999999,19.966666666666654
+video_08,q070,a person puts items into a shopping cart,64.0,72.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,64.03333333333333,71.99999999999999,7.966666666666654
+video_08,q070,a person puts items into a shopping cart,70.0,78.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,70.03333333333333,77.99999999999999,7.966666666666654
+video_08,q070,a person puts items into a shopping cart,76.0,84.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,76.03333333333332,83.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,80.0,100.0,YES 1.3-1.7,,,False,30.000000000000004,38,2.0,1.9,600,80.03333333333332,99.99999999999999,19.96666666666667
+video_08,q070,a person puts items into a shopping cart,80.0,88.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,80.03333333333332,87.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,86.0,94.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,86.03333333333332,93.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,92.0,100.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,92.03333333333332,99.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,96.0,116.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,96.03333333333332,115.99999999999999,19.96666666666667
+video_08,q070,a person puts items into a shopping cart,96.0,104.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,96.03333333333332,103.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,102.0,110.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,102.03333333333332,109.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,108.0,116.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,108.03333333333332,115.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,112.0,132.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,112.03333333333332,131.99999999999997,19.966666666666654
+video_08,q070,a person puts items into a shopping cart,112.0,120.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,112.03333333333332,119.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,118.0,126.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,118.03333333333332,125.99999999999999,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,124.0,132.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,124.03333333333332,131.99999999999997,7.966666666666654
+video_08,q070,a person puts items into a shopping cart,128.0,148.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,128.03333333333333,147.99999999999997,19.96666666666664
+video_08,q070,a person puts items into a shopping cart,128.0,136.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,128.03333333333333,135.99999999999997,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,134.0,142.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,134.03333333333333,141.99999999999997,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,140.0,148.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,140.0333333333333,147.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,144.0,164.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,144.0333333333333,163.99999999999997,19.96666666666667
+video_08,q070,a person puts items into a shopping cart,144.0,152.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,144.0333333333333,151.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,150.0,158.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,150.0333333333333,157.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,156.0,164.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,156.0333333333333,163.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,160.0,180.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,160.0333333333333,179.99999999999997,19.96666666666667
+video_08,q070,a person puts items into a shopping cart,160.0,168.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,160.0333333333333,167.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,166.0,174.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,166.0333333333333,173.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,172.0,180.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,172.0333333333333,179.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,176.0,196.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,176.0333333333333,195.99999999999997,19.96666666666667
+video_08,q070,a person puts items into a shopping cart,176.0,184.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,176.0333333333333,183.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,182.0,190.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,182.0333333333333,189.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,188.0,196.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,188.0333333333333,195.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,192.0,212.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,192.0333333333333,211.99999999999997,19.96666666666667
+video_08,q070,a person puts items into a shopping cart,192.0,200.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,192.0333333333333,199.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,198.0,206.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,198.0333333333333,205.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,204.0,212.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,204.0333333333333,211.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,208.0,228.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,208.0333333333333,227.99999999999997,19.96666666666667
+video_08,q070,a person puts items into a shopping cart,208.0,216.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,208.0333333333333,215.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,214.0,222.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,214.0333333333333,221.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,220.0,228.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,220.0333333333333,227.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,224.0,244.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,224.0333333333333,243.99999999999997,19.96666666666667
+video_08,q070,a person puts items into a shopping cart,224.0,232.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,224.0333333333333,231.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,230.0,238.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,230.0333333333333,237.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,236.0,244.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,236.0333333333333,243.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,240.0,260.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,240.0333333333333,259.99999999999994,19.96666666666664
+video_08,q070,a person puts items into a shopping cart,240.0,248.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,240.0333333333333,247.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,246.0,254.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,246.0333333333333,253.99999999999997,7.966666666666669
+video_08,q070,a person puts items into a shopping cart,252.0,260.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,252.0333333333333,259.99999999999994,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,256.0,276.0,YES 4.0-6.0,,,False,30.000000000000004,38,2.0,1.9,600,256.0333333333333,275.99999999999994,19.96666666666664
+video_08,q070,a person puts items into a shopping cart,256.0,264.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,256.0333333333333,263.99999999999994,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,262.0,270.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,262.0333333333333,269.99999999999994,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,268.0,276.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,268.0333333333333,275.99999999999994,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,272.0,292.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,272.0333333333333,291.99999999999994,19.96666666666664
+video_08,q070,a person puts items into a shopping cart,272.0,280.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,272.0333333333333,279.99999999999994,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,278.0,286.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,278.0333333333333,285.99999999999994,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,284.0,292.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,284.0333333333333,291.99999999999994,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,288.0,298.0,NO,,,False,30.000000000000004,18,2.0,1.8,300,288.0333333333333,297.99999999999994,9.96666666666664
+video_08,q070,a person puts items into a shopping cart,288.0,296.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,288.0333333333333,295.99999999999994,7.96666666666664
+video_08,q070,a person puts items into a shopping cart,294.0,298.0,NO,,,True,30.000000000000004,6,2.0,1.5,120,294.0333333333333,297.99999999999994,3.96666666666664
+video_08,q072,a cashier is bagging groceries,0.0,20.0,YES 0.0-19.0,0.0,19.0,False,30.000000000000004,40,2.0,2.0,601,0.0,19.999999999999996,19.999999999999996
+video_08,q072,a cashier is bagging groceries,16.0,36.0,YES 16.3-21.4,16.3,21.4,False,30.000000000000004,38,2.0,1.9,600,16.03333333333333,35.99999999999999,19.96666666666666
+video_08,q072,a cashier is bagging groceries,32.0,52.0,YES 32.3-47.3,32.3,47.3,False,30.000000000000004,38,2.0,1.9,600,32.03333333333333,51.99999999999999,19.96666666666666
+video_08,q072,a cashier is bagging groceries,48.0,68.0,YES 48.3-67.7,48.3,67.7,False,30.000000000000004,38,2.0,1.9,600,48.033333333333324,67.99999999999999,19.96666666666666
+video_08,q072,a cashier is bagging groceries,64.0,84.0,YES 64.3-66.5,64.3,66.5,False,30.000000000000004,38,2.0,1.9,600,64.03333333333333,83.99999999999999,19.966666666666654
+video_08,q072,a cashier is bagging groceries,80.0,100.0,YES 81.1-82.5,81.1,82.5,False,30.000000000000004,38,2.0,1.9,600,80.03333333333332,99.99999999999999,19.96666666666667
+video_08,q072,a cashier is bagging groceries,96.0,116.0,YES 101.2-107.2,101.2,107.2,False,30.000000000000004,38,2.0,1.9,600,96.03333333333332,115.99999999999999,19.96666666666667
+video_08,q072,a cashier is bagging groceries,112.0,132.0,YES 112.3-123.1,112.3,123.1,False,30.000000000000004,38,2.0,1.9,600,112.03333333333332,131.99999999999997,19.966666666666654
+video_08,q072,a cashier is bagging groceries,128.0,148.0,YES 139.1-145.5,139.1,145.5,False,30.000000000000004,38,2.0,1.9,600,128.03333333333333,147.99999999999997,19.96666666666664
+video_08,q072,a cashier is bagging groceries,144.0,164.0,YES 144.3-152.0,144.3,152.0,False,30.000000000000004,38,2.0,1.9,600,144.0333333333333,163.99999999999997,19.96666666666667
+video_08,q072,a cashier is bagging groceries,160.0,180.0,YES 160.3-179.7,160.3,179.7,False,30.000000000000004,38,2.0,1.9,600,160.0333333333333,179.99999999999997,19.96666666666667
+video_08,q072,a cashier is bagging groceries,176.0,196.0,YES 176.3-196.3,176.3,196.0,False,30.000000000000004,38,2.0,1.9,600,176.0333333333333,195.99999999999997,19.96666666666667
+video_08,q072,a cashier is bagging groceries,192.0,212.0,YES 192.3-212.0,192.3,212.0,False,30.000000000000004,38,2.0,1.9,600,192.0333333333333,211.99999999999997,19.96666666666667
+video_08,q072,a cashier is bagging groceries,208.0,228.0,YES 208.3-227.7,208.3,227.7,False,30.000000000000004,38,2.0,1.9,600,208.0333333333333,227.99999999999997,19.96666666666667
+video_08,q072,a cashier is bagging groceries,224.0,244.0,YES 3.0-4.0,,,False,30.000000000000004,38,2.0,1.9,600,224.0333333333333,243.99999999999997,19.96666666666667
+video_08,q072,a cashier is bagging groceries,224.0,232.0,YES 224.3-231.7,224.3,231.7,True,30.000000000000004,14,2.0,1.75,240,224.0333333333333,231.99999999999997,7.966666666666669
+video_08,q072,a cashier is bagging groceries,230.0,238.0,YES 230.3-234.0,230.3,234.0,True,30.000000000000004,14,2.0,1.75,240,230.0333333333333,237.99999999999997,7.966666666666669
+video_08,q072,a cashier is bagging groceries,236.0,244.0,YES 4.0-10.0,,,True,30.000000000000004,14,2.0,1.75,240,236.0333333333333,243.99999999999997,7.966666666666669
+video_08,q072,a cashier is bagging groceries,240.0,260.0,YES 241.0-259.0,241.0,259.0,False,30.000000000000004,38,2.0,1.9,600,240.0333333333333,259.99999999999994,19.96666666666664
+video_08,q072,a cashier is bagging groceries,256.0,276.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,256.0333333333333,275.99999999999994,19.96666666666664
+video_08,q072,a cashier is bagging groceries,256.0,264.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,256.0333333333333,263.99999999999994,7.96666666666664
+video_08,q072,a cashier is bagging groceries,262.0,270.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,262.0333333333333,269.99999999999994,7.96666666666664
+video_08,q072,a cashier is bagging groceries,268.0,276.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,268.0333333333333,275.99999999999994,7.96666666666664
+video_08,q072,a cashier is bagging groceries,272.0,292.0,NO,,,False,30.000000000000004,38,2.0,1.9,600,272.0333333333333,291.99999999999994,19.96666666666664
+video_08,q072,a cashier is bagging groceries,272.0,280.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,272.0333333333333,279.99999999999994,7.96666666666664
+video_08,q072,a cashier is bagging groceries,278.0,286.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,278.0333333333333,285.99999999999994,7.96666666666664
+video_08,q072,a cashier is bagging groceries,284.0,292.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,284.0333333333333,291.99999999999994,7.96666666666664
+video_08,q072,a cashier is bagging groceries,288.0,298.0,NO,,,False,30.000000000000004,18,2.0,1.8,300,288.0333333333333,297.99999999999994,9.96666666666664
+video_08,q072,a cashier is bagging groceries,288.0,296.0,NO,,,True,30.000000000000004,14,2.0,1.75,240,288.0333333333333,295.99999999999994,7.96666666666664
+video_08,q072,a cashier is bagging groceries,294.0,298.0,NO,,,True,30.000000000000004,6,2.0,1.5,120,294.0333333333333,297.99999999999994,3.96666666666664

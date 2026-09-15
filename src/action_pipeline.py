@@ -160,7 +160,7 @@ def _chunk_span(start, end):
     return result
 
 
-def stage1_candidate_windows(video_path, query_ids, query_texts, subjects, processor, model, debug_query=None):
+def stage1_candidate_windows(video_path, query_ids, query_texts, subjects, processor, model, debug_queries=None):
     """
     Samples the video every SAMPLE_INTERVAL_SEC and scores SAM3 presence
     for each query's subject phrase. Returns:
@@ -189,7 +189,7 @@ def stage1_candidate_windows(video_path, query_ids, query_texts, subjects, proce
             image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
             times.append(timestamp)
             for qid, subject in zip(query_ids, subjects):
-                if debug_query and qid != debug_query:
+                if debug_queries and qid not in debug_queries:
                     presence[qid].append(0.0)
                     continue
                 score = sam3_presence_score(image, subject, processor, model)
@@ -379,21 +379,32 @@ def qwen_ground_window(video_path, start, end, query_text, processor, model, sam
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--debug-query", type=str, default=None, help="Restrict to one query_id (its video only).")
+    parser.add_argument("--debug-query", type=str, default=None,
+                         help="Restrict to one or more query_ids (comma-separated), "
+                              "e.g. --debug-query q052,q053,q072. Loads SAM3/Qwen "
+                              "once and covers every video those queries span, "
+                              "instead of paying model-load cost per query_id.")
     args = parser.parse_args()
+
+    debug_queries = None
+    if args.debug_query:
+        debug_queries = [q.strip() for q in args.debug_query.split(",") if q.strip()]
 
     queries = pd.read_csv(QUERIES_PATH)
     action_queries = queries[queries.query_type == "action"].copy()
-    if args.debug_query:
-        action_queries = action_queries[action_queries.query_id == args.debug_query].copy()
-        if action_queries.empty:
-            raise SystemExit(f"--debug-query {args.debug_query!r} is not an action query_id")
+    if debug_queries:
+        action_queries = action_queries[action_queries.query_id.isin(debug_queries)].copy()
+        found = set(action_queries.query_id)
+        missing = [q for q in debug_queries if q not in found]
+        if missing:
+            raise SystemExit(f"--debug-query {missing} are not action query_ids")
 
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    if args.debug_query:
-        presence_path = OUTPUT_DIR / f"action_presence_debug_{args.debug_query}.csv"
-        windows_path = OUTPUT_DIR / f"action_candidate_windows_debug_{args.debug_query}.csv"
+    if debug_queries:
+        tag = "_".join(debug_queries) if len(debug_queries) <= 4 else f"{len(debug_queries)}queries"
+        presence_path = OUTPUT_DIR / f"action_presence_debug_{tag}.csv"
+        windows_path = OUTPUT_DIR / f"action_candidate_windows_debug_{tag}.csv"
     else:
         presence_path = OUTPUT_DIR / "action_presence.csv"
         windows_path = OUTPUT_DIR / "action_candidate_windows.csv"
@@ -432,7 +443,7 @@ def main():
         windows, presence_rows = stage1_candidate_windows(
             video_path, query_ids, query_texts, subjects,
             sam3_processor, sam3_model,
-            debug_query=args.debug_query,
+            debug_queries=debug_queries,
         )
         for row in presence_rows:
             row["video_id"] = video_id
