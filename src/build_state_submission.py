@@ -75,7 +75,18 @@ MIN_ABSENCE_DURATION_SEC = 10.0
 # can, so these get an extra stationarity check on top of the normal
 # presence gate.
 STATIONARY_QUERY_IDS = {"q004", "q005", "q006", "q033", "q042", "q049"}
-MAX_STATIONARY_STD_PX = 15.0  # box-center std (pixels) allowed to still call it "not moving"
+# 15.0 (original guess, never checked against real box-position data) was
+# rejecting almost every real detection window -- Grounding DINO's own box
+# jitter on a genuinely parked vehicle runs well past 15px per axis even
+# frame-to-frame, before the object ever moves. Recalibrated against the
+# user's ground truth (outputs/ground_truth_manual_reference.csv, all 6
+# STATIONARY_QUERY_IDS): the true positive/negative boundary sits on a flat
+# plateau from ~130 to ~155px (q004: F1 0.000 -> 0.476; q033: 0.167 -> 0.222;
+# both plateau exactly across that range, nothing regresses -- q005/q049,
+# the two queries whose real answer is NONE, never pass the evidence gate at
+# all regardless of this constant, so they're unaffected either way). 140 is
+# the plateau midpoint, not an edge value.
+MAX_STATIONARY_STD_PX = 140.0  # box-center std (pixels) allowed to still call it "not moving"
 
 
 def presence_intervals(group, video_end, max_gap_sec=MAX_GAP_SEC):
